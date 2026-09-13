@@ -7,9 +7,11 @@
 Tropical fish, sunlit water and a coral canyon that moves with your perspective.
 Ocean is a real-time 3D live wallpaper, not a looping video.
 
-![Ocean running on Android](media/ocean-landscape.png)
+[![Watch Ocean on YouTube: the actual Android live wallpaper](media/ocean-landscape.png)](https://www.youtube.com/shorts/x7QC6oZ9l2A)
 
-[Portrait screenshot](media/ocean-portrait.png) | [Watch the short preview](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
+**[Watch on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A)**
+| [Portrait screenshot](media/ocean-portrait.png)
+| [Download the preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
 > **Installation status:** Google Play Protect blocked version 1.0.3 during an

@@ -1,5 +1,9 @@
 # Ocean Media
 
+[Watch Ocean on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A).
+The channel owner uploaded the preview; the public README links to it through
+the scene screenshot. GitHub README pages do not embed YouTube iframe players.
+
 Screenshots were captured directly from the Android app in an API-36 emulator
 on September 13, 2026. The scene screenshots are unchanged screen captures.
 The permission and Play Protect images show actual system dialogs, not mockups.
