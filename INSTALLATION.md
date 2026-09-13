@@ -38,8 +38,16 @@ turn off your browser's permission.
 > During our September 13, 2026 emulator test, Play Protect blocked **1.0.3**
 > with `POTENTIALLY_UNWANTED / generic_malware`. The scan did not identify a
 > specific file or behaviour. We have not established the cause or a false
-> positive, and have not submitted an appeal. Version 1.0.2 has almost identical
+> positive. An appeal was submitted on September 13, 2026, and Google confirmed
+> receipt, but no decision has been communicated. Version 1.0.2 has almost identical
 > code, so it should not be treated as an independently cleared alternative.
+
+The unchanged 1.0.3 APK was uploaded to VirusTotal with the owner's consent.
+Its [September 13 report](https://www.virustotal.com/gui/file/4591edc13eeb30c1aeaca974bb541c8e6b026a1593933678c6c7cd28ed3ab172)
+showed **0/67 detections**, including Google "Undetected". Seven other engines
+could not process the file type and one failed; those do not count as clean checks.
+This is additional evidence, not an exhaustive security audit or confirmation that
+on-device Play Protect has changed its result. The appeal included the scan result.
 
 This is different from a message that merely says an app is unfamiliar or asks
 to scan it. It is not known to be caused by small download numbers, a missing
