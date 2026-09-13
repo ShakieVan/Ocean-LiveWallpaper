@@ -3,6 +3,9 @@
 Ocean does not include advertising, analytics or an account system.
 
 - Wallpaper preferences and camera settings are stored on your device.
+- Android backup and device transfer may also copy those preferences, depending
+  on your system settings. Ocean does not operate its own backup server.
+  Downloaded APKs in the private cache are excluded from Android Auto Backup.
 - Tilt sensors are used locally to move the view; sensor readings are not uploaded.
 - The optional battery display uses current device battery readings while the
   settings are visible. It represents the whole device, not isolated app usage.
