@@ -125,15 +125,18 @@ off when you do not need it; the wallpaper does not need it to run.
 
 ## Appearance Controls
 
-Version 1.1.0 adds six controls in **Settings** (`Einstellungen`). The current
+Version 1.2.1 has seven appearance controls in **Settings** (`Einstellungen`). The current
 app uses the German labels shown below. Changes are saved for the preview and
 live wallpaper.
+
+<img src="media/appearance-1.2.1.png" width="330" alt="Ocean 1.2.1 appearance settings with independent brightness and fluorescence sliders, contrast, water clarity and reef colour" />
 
 | Control in the app | What it changes | Default |
 | --- | --- | --- |
 | **Oberflächendetails** — Surface detail | Basic / Fine / High / Maximum (`Basis / Fein / Hoch / Maximum`) adjust extra reef detail and fish scales. | High (`Hoch`) |
 | **Texturschärfe** — Texture sharpness | 0–100% strengthens existing fine texture contrast on reef and fish. | Off (`Aus`) |
-| **Helligkeit** — Brightness | 30–150%; below 100%, selected fluorescent coral colours stand out more. | 100% |
+| **Helligkeit** — Brightness | 30–150%; lower values dim the surroundings while fluorescent colours stand out more. | 100% |
+| **Fluoreszenz** — Fluorescence | 0–200%, independent of brightness: off / normal at 100% / exaggerated at 200%. Controls selected coral colours, the blue clam band and artistic fish and nursery markings. | 100% |
 | **Kontrast** — Contrast | 50–150% adjusts image contrast. | 100% |
 | **Wasserklarheit** — Water clarity | 0–100%; lower values shorten visibility through the water. Maximum (`Klar`) retains the previous clear view. | Clear, 100% |
 | **Rifffarbe** — Reef colour | Limestone (`Kalk`) at 0%, dark grey (`Dunkelgrau`) at 50%, magma black (`Magma-Schwarz`) at 100%, with smooth transitions. Only the rocks change colour. | Limestone, 0% |
@@ -142,6 +145,10 @@ Try the defaults first, then adjust one control at a time. Use a lower surface
 detail setting if you prefer less graphics work; device performance and battery
 use vary. Texture sharpness is optional and does not add new objects. Magma black
 is dark rock, not glowing lava.
+
+Fluorescent fish patterns are artistic body lines, spots and tail accents;
+their placement does not claim scientifically documented fluorescence in each
+depicted species. The markings follow the existing mapped colours and animation.
 
 The camera reset button resets the view while keeping these appearance choices.
 Fish count, tilt strength, shadows and the 30/40/50/60 FPS options remain in
@@ -156,9 +163,10 @@ the previous six forms, this doubles the reef's visual variety. These are
 visual types, not a promise of twelve identified biological species.
 
 Three giant clams join the reef as additional animals; they are not counted as
-coral forms. Each has a ridged shell and a bright, striped mantle that pulses
-subtly inside the opening. The new coral and clam geometry is original and uses
-mapped surface detail.
+coral forms. In **1.2.1**, their Maxima-style mantle has a deeply folded opening
+and a cobalt-blue longitudinal band inside a thick pale shell lip. Its blue
+band responds to the fluorescence slider. The mantle moves subtly; the shell
+stays rigid. The original coral and clam geometry uses mapped surface detail.
 
 Two menus in Settings replace the coral-variety slider:
 
@@ -180,6 +188,10 @@ in Ocean 1.2.0 on an Android emulator. Your phone's layout may differ.
 <img src="media/species-fish-menu.png" width="270" alt="Ocean 1.2.0 Fish species menu with all eight fish types enabled and an eye button beside each type" />
 <img src="media/species-coral-menu.png" width="270" alt="Ocean 1.2.0 Corals and clams menu showing individual switches, preview buttons and a scrollable list with all thirteen types enabled" />
 <img src="media/species-clam-popup.png" width="270" alt="Giant clam preview popup in Ocean 1.2.0, showing the actual ridged shell and bright turquoise, blue and violet striped mantle" />
+
+The updated Maxima-style clam in **1.2.1** has its own new model portrait:
+
+<img src="media/clam-1.2.1-popup.png" width="330" alt="Ocean 1.2.1 giant clam popup showing the new deeply folded cobalt-blue mantle inside a pale shell lip" />
 
 The **Fish count** setting is distributed across the enabled fish species.
 If all fish species are off, no fish are shown; the saved count returns when you

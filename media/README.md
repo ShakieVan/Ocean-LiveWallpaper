@@ -74,3 +74,9 @@ the earlier blocked-installation records retain their dates and scope.
 The screenshot files are direct copies without cropping, recolouring, captions
 or other image edits. The installation guide only scales their displayed width.
 The published APK was unchanged for this test.
+# Ocean 1.2.1 additions
+
+`appearance-1.2.1.png` and `clam-1.2.1-popup.png` are unchanged screenshots of
+the signed Ocean 1.2.1 Android release running on an API-36 emulator. They show
+the independent fluorescence control and the actual model portrait popup.
+They are not concept art or a phone performance benchmark.
