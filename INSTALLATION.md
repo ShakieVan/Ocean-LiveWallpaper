@@ -146,7 +146,7 @@ off when you do not need it; the wallpaper does not need it to run.
 
 ## Appearance Controls
 
-Version 1.2.1 has seven appearance controls in **Settings** (`Einstellungen`). The current
+Version 1.3.0 has seven appearance controls in **Settings** (`Einstellungen`). The current
 app uses the German labels shown below. Changes are saved for the preview and
 live wallpaper.
 
@@ -154,7 +154,7 @@ live wallpaper.
 
 | Control in the app | What it changes | Default |
 | --- | --- | --- |
-| **Oberflächendetails** — Surface detail | Basic / Fine / High / Maximum (`Basis / Fein / Hoch / Maximum`) adjust extra reef detail and fish scales. | High (`Hoch`) |
+| **Detailgrad** — Detail level | Basic / Fine / High / Maximum (`Basis / Fein / Hoch / Maximum`) adjust reef relief and fish scales. Basic and Fine use simpler imported coral models; High and Maximum show finer shapes. | High (`Hoch`) |
 | **Texturschärfe** — Texture sharpness | 0–100% strengthens existing fine texture contrast on reef and fish. | Off (`Aus`) |
 | **Helligkeit** — Brightness | 30–150%; lower values dim the surroundings while fluorescent colours stand out more. | 100% |
 | **Fluoreszenz** — Fluorescence | 0–200%, independent of brightness: off / normal at 100% / exaggerated at 200%. Controls selected coral colours, the blue clam band and artistic fish and nursery markings. | 100% |
@@ -191,17 +191,26 @@ stays rigid. The original coral and clam geometry uses mapped surface detail.
 
 Two menus in Settings replace the coral-variety slider:
 
+Version **1.3.0** adds three blue-violet **scale columns** (`Schuppensäule`),
+with many overlapping scale-like growths, and refines fan branches, plate edges
+and folded cups. The name describes an original visual form, not a biological
+species identification.
+
 - **Fish species** (`Fischarten`): switch each of eight fish types on or off.
-- **Corals & clams** (`Korallen & Muscheln`): switch each of thirteen reef types
-  on or off: the twelve visual coral forms and giant clams. Each of the six new
+- **Corals & clams** (`Korallen & Muscheln`): switch each of fourteen reef types
+  on or off, including the new scale column and giant clams. Each of the six earlier
   coral forms has three colonies; the giant-clam switch controls three clams.
 
 Both menus offer **All on / All off** (`Alle an / Alle aus`). The eye icon
 beside each switch opens a small model portrait without changing the selection.
-All 21 portraits were rendered from the actual models used by Ocean, so you can
-identify a type before choosing it. Scroll the coral list to see all thirteen
+All 22 portraits are rendered from the actual models used by Ocean, so you can
+identify a type before choosing it. Scroll the coral list to see all fourteen
 entries. Choose **Close** (`Schließen`) to return from a portrait and **Done**
 (`Fertig`) to close the species menu.
+
+Updating preserves individual exclusions. If you had enabled every previously
+available reef type, the new scale column is enabled automatically. You can
+switch it off independently, and that choice is saved.
 
 These unchanged screenshots show the German menus and the giant-clam portrait
 in Ocean 1.2.0 on an Android emulator. Your phone's layout may differ.

@@ -39,6 +39,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
+- New in **1.3.0**: finer coral shapes, stronger surface relief and finer fish
+  scales, plus blue-violet scale columns. The **Detailgrad** control also
+  selects simpler or more detailed coral models. **Corals & clams** now offers
+  fourteen independently selectable reef types with model portraits.
+  [Release notes](releases/v1.3.0.md).
 - New in **1.2.1**: a deeply folded Maxima-style clam with a cobalt-blue glowing
   band, plus artistic fluorescent fish markings. The new **Fluorescence** slider
   controls corals, clams, fish and small schools independently of brightness:
@@ -47,7 +52,8 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 - New in **1.2.0**: six additional coral forms double the visual variety from
   six to twelve, joined by three giant clams with bright, striped mantles that
   pulse subtly within their shells. **Fish species** and **Corals & clams** menus
-  let you turn each of eight fish types and thirteen reef types on or off.
+  introduced individual fish and coral switches, expanded to fourteen reef
+  types in 1.3.0.
   Eye icons open small portraits rendered from the actual models.
   **Extra growth** adds twice as many colonies at every enabled step and follows
   your coral choices. Moving light rays reach farther sideways.
