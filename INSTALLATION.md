@@ -35,13 +35,34 @@ turn off your browser's permission.
 ## Google Play Protect
 
 > [!NOTE]
-> **Latest result: 1.2.0 installed successfully on September 14, 2026.** A fresh
+> **Latest result: 1.2.1 installed successfully on September 14, 2026.** A fresh
 > API-36 Android emulator initially had no Ocean installation. We installed
-> **1.0.2 / version code 14** through ADB as the starting version, then used
-> Ocean's public updater to find, download and verify **1.2.0**. Android's system
+> **1.2.0 / version code 17** through ADB as the starting version, then used
+> Ocean's public updater to find, download and verify **1.2.1**. Android's system
 > installer completed that update. No scan or block dialog appeared; no override
-> was used and no protection settings were changed. This observation applies to
+> was used and no global protection settings were changed. This observation applies to
 > this emulator test, not your phone or a general Play Protect clearance.
+
+<img src="media/update-1.2.1-verified.png" width="330" alt="Ocean 1.2.0 reports that the public 1.2.1 update download is verified and ready to install" />
+<img src="media/update-1.2.1-installed.png" width="330" alt="Android's system installer confirms that Ocean 1.2.1 was successfully installed on September 14, 2026" />
+<img src="media/update-1.2.1-main.png" width="330" alt="The installed public Ocean 1.2.1 release running after the completed update" />
+
+Android displayed **App installed** (`App wurde installiert.`). The package
+reported **1.2.1 / version code 18**, with `com.google.android.packageinstaller`
+recorded as the installer. Only the starting version used ADB; the 1.2.1 update
+was downloaded through Ocean and installed through Android's confirmation flow.
+Ocean then showed its installation-permission reminder, and that permission
+was switched off again and confirmed disabled. The updated app opened
+successfully, and the checked crash log was empty. These unchanged screenshots
+show the published release APK, not a replacement build.
+
+### Earlier Successful Update: 1.2.0
+
+An earlier fresh API-36 emulator, also initially without Ocean, received
+**1.0.2 / version code 14** as its starting version through ADB. Ocean's public
+updater then downloaded and verified **1.2.0**, and Android installed it
+successfully on September 14, 2026. No scan or block dialog appeared, no override
+was used and no global protection settings were changed.
 
 <img src="media/update-1.2.0-verified.png" width="330" alt="Ocean 1.0.2 reports that the public 1.2.0 update download is verified and ready to install" />
 <img src="media/update-1.2.0-installed.png" width="330" alt="Android's system installer confirms that Ocean 1.2.0 was successfully installed on September 14, 2026" />
@@ -78,9 +99,9 @@ showed **0/67 detections**, including Google "Undetected". Seven other engines
 could not process the file type and one failed; those do not count as clean checks.
 This is additional evidence, not an exhaustive security audit or confirmation that
 on-device Play Protect has changed its result. The appeal included the scan result.
-That report is for the exact 1.0.3 APK. It is not a scan of 1.1.0 or 1.2.0, and
-no Play Protect clearance for either version is claimed here. The 1.1.0 block
-above is a historical observation, not a new scan result for 1.2.0.
+That report is for the exact 1.0.3 APK. It is not a scan of 1.1.0, 1.2.0 or 1.2.1,
+and no general Play Protect clearance for those versions is claimed here. The
+1.1.0 block above is a historical observation, not a new scan result for 1.2.1.
 
 This is different from a message that merely says an app is unfamiliar or asks
 to scan it. It is not known to be caused by small download numbers, a missing
@@ -219,5 +240,5 @@ colonies may be shown than the totals above. The original reef placements stay
 in place. Species choices and growth apply to the preview and live wallpaper
 and are preserved by camera reset. Fewer enabled reef types or less extra growth
 draw fewer objects; actual performance and battery use depend on your device.
-Existing texture sharpness and brightness-dependent fluorescence also apply to
+Existing texture sharpness and the selected fluorescence strength also apply to
 the new mapped coral surfaces.

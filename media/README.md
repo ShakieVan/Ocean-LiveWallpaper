@@ -74,9 +74,39 @@ the earlier blocked-installation records retain their dates and scope.
 The screenshot files are direct copies without cropping, recolouring, captions
 or other image edits. The installation guide only scales their displayed width.
 The published APK was unchanged for this test.
-# Ocean 1.2.1 additions
+
+## Ocean 1.2.1 additions
 
 `appearance-1.2.1.png` and `clam-1.2.1-popup.png` are unchanged screenshots of
 the signed Ocean 1.2.1 Android release running on an API-36 emulator. They show
 the independent fluorescence control and the actual model portrait popup.
 They are not concept art or a phone performance benchmark.
+
+## Public 1.2.1 Update — September 14, 2026
+
+These unchanged screenshots document a completed public-release update on a
+fresh API-36 Android emulator. Ocean was initially absent. Only the starting
+version, **1.2.0 / version code 17**, was installed through ADB; the **1.2.1**
+update was found, downloaded and verified by Ocean's public updater, then
+installed through Android's system confirmation flow.
+
+| File | Observed step |
+| --- | --- |
+| [update-1.2.1-verified.png](update-1.2.1-verified.png) | Ocean 1.2.0 shows the verified public 1.2.1 download ready for installation. |
+| [update-1.2.1-installed.png](update-1.2.1-installed.png) | Android displays App installed (`App wurde installiert.`) after completing the update. |
+| [update-1.2.1-main.png](update-1.2.1-main.png) | The installed public Ocean 1.2.1 release running after the update. |
+
+The installed package reported **1.2.1 / version code 18**, with
+`com.google.android.packageinstaller` recorded as the installer. No scan or
+block dialog appeared, no override was selected and no global protection
+settings were changed. Ocean's installation-permission reminder appeared
+afterward, and that scoped permission was switched off again and confirmed
+disabled. The updated app opened successfully, and the checked crash log
+was empty.
+
+This is an emulator observation, not a phone test or general Play Protect
+clearance. The earlier successful 1.2.0 update and blocked 1.1.0/1.0.3 records
+remain historical evidence. The screenshot files are direct copies without
+cropping, recolouring, captions or other edits; displayed widths may be scaled.
+The tested APK is the unchanged published **101,402,238-byte** file, SHA-256
+`18ab811f010bbd2d292f1271e075f00bd57c0eff29905d802b304703a2493a75`.
