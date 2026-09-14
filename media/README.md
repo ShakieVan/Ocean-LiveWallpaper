@@ -9,6 +9,12 @@ on September 13, 2026. The scene screenshots are unchanged screen captures.
 The permission and Play Protect images show actual system dialogs, not mockups.
 The launcher image is Ocean's own generated app icon.
 
+The `detail-1.3.0-*` and `update-1.3.0-*` PNGs are unchanged screenshots of the
+signed Ocean 1.3.0 release on an API-36 emulator, captured September 14, 2026.
+The update images show the verified public download from 1.2.1, Android's
+successful installation, and the app running afterward. They are not phone
+performance results or a general Play Protect clearance.
+
 The 30-second promotional MP4 is attached to release 1.0.3. It crops the native
 portrait recording to 1080 x 1920, removes Android/preview controls from the frame,
 and adds English captions and opening/closing fades. Scene colours and geometry

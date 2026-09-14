@@ -15,19 +15,19 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 
 > [!NOTE]
 > **Latest installation result:** On September 14, 2026, a fresh API-36 Android
-> emulator successfully updated from **1.2.0 to 1.2.1** through Ocean's public
+> emulator successfully updated from **1.2.1 to 1.3.0** through Ocean's public
 > updater and Android's system installer. Download and integrity checks passed;
 > no scan or block dialog appeared, and no Play Protect override or global
 > protection change was used.
 > This is an emulator result, not a phone test or general Play Protect clearance.
-> An earlier fresh-emulator update from **1.0.2 to 1.2.0** also succeeded.
+> Earlier fresh-emulator updates from **1.0.2 to 1.2.0** and **1.2.0 to 1.2.1** also succeeded.
 > Earlier tests blocked **1.1.0** after a requested scan on September 14 and
 > **1.0.3** on September 13. An appeal for 1.0.3 was submitted on September 13, 2026;
 > Google has not communicated a decision. A subsequent
 > [VirusTotal scan reported 0/67 detections](https://www.virustotal.com/gui/file/4591edc13eeb30c1aeaca974bb541c8e6b026a1593933678c6c7cd28ed3ab172),
 > which applies to that 1.0.3 file only and is not a safety guarantee or Play Protect
 > clearance for any later version. The successful updates do not establish
-> general Play Protect clearance for 1.2.0 or 1.2.1.
+> general Play Protect clearance for these versions.
 > [See the screenshots and installation notes](INSTALLATION.md#google-play-protect).
 
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**

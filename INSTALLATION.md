@@ -35,26 +35,31 @@ turn off your browser's permission.
 ## Google Play Protect
 
 > [!NOTE]
-> **Latest result: 1.2.1 installed successfully on September 14, 2026.** A fresh
+> **Latest result: 1.3.0 installed successfully on September 14, 2026.** A fresh
 > API-36 Android emulator initially had no Ocean installation. We installed
-> **1.2.0 / version code 17** through ADB as the starting version, then used
-> Ocean's public updater to find, download and verify **1.2.1**. Android's system
+> **1.2.1 / version code 18** through ADB as the starting version, then used
+> Ocean's public updater to find, download and verify **1.3.0**. Android's system
 > installer completed that update. No scan or block dialog appeared; no override
 > was used and no global protection settings were changed. This observation applies to
 > this emulator test, not your phone or a general Play Protect clearance.
 
-<img src="media/update-1.2.1-verified.png" width="330" alt="Ocean 1.2.0 reports that the public 1.2.1 update download is verified and ready to install" />
-<img src="media/update-1.2.1-installed.png" width="330" alt="Android's system installer confirms that Ocean 1.2.1 was successfully installed on September 14, 2026" />
-<img src="media/update-1.2.1-main.png" width="330" alt="The installed public Ocean 1.2.1 release running after the completed update" />
+<img src="media/update-1.3.0-verified.png" width="330" alt="Ocean 1.2.1 reports that the public 1.3.0 update download is verified and ready to install" />
+<img src="media/update-1.3.0-installed.png" width="330" alt="Android's system installer confirms that Ocean 1.3.0 was successfully installed on September 14, 2026" />
+<img src="media/update-1.3.0-main.png" width="330" alt="The installed public Ocean 1.3.0 release running after the completed update" />
 
 Android displayed **App installed** (`App wurde installiert.`). The package
-reported **1.2.1 / version code 18**, with `com.google.android.packageinstaller`
-recorded as the installer. Only the starting version used ADB; the 1.2.1 update
+reported **1.3.0 / version code 19**, with `com.google.android.packageinstaller`
+recorded as the installer. Only the starting version used ADB; the 1.3.0 update
 was downloaded through Ocean and installed through Android's confirmation flow.
 Ocean then showed its installation-permission reminder, and that permission
 was switched off again and confirmed disabled. The updated app opened
 successfully, and the checked crash log was empty. These unchanged screenshots
 show the published release APK, not a replacement build.
+
+The earlier **1.2.0 to 1.2.1** update also succeeded through the same public
+updater and system installer. Its original screenshots remain available:
+[verified download](media/update-1.2.1-verified.png),
+[installed](media/update-1.2.1-installed.png), [running app](media/update-1.2.1-main.png).
 
 ### Earlier Successful Update: 1.2.0
 
