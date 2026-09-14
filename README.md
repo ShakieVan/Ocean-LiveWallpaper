@@ -22,6 +22,7 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 > [VirusTotal scan reported 0/67 detections](https://www.virustotal.com/gui/file/4591edc13eeb30c1aeaca974bb541c8e6b026a1593933678c6c7cd28ed3ab172),
 > which applies to that 1.0.3 file only and is not a safety guarantee or Play Protect
 > clearance for 1.0.3 or 1.1.0.
+> These are historical results; no Play Protect clearance for 1.2.0 is claimed.
 > [See the screenshots and installation notes](INSTALLATION.md#google-play-protect).
 
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
@@ -33,7 +34,15 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
-- New in **1.1.0**: finer reef textures and fish scales, with controls for surface
+- New in **1.2.0**: six additional coral forms double the visual variety from
+  six to twelve, joined by three giant clams with bright, striped mantles that
+  pulse subtly within their shells. **Fish species** and **Corals & clams** menus
+  let you turn each of eight fish types and thirteen reef types on or off.
+  Eye icons open small portraits rendered from the actual models.
+  **Extra growth** adds twice as many colonies at every enabled step and follows
+  your coral choices. Moving light rays reach farther sideways.
+  [Choose species and adjust growth](INSTALLATION.md#coral-variety-and-extra-growth).
+- Fine reef textures and fish scales, with controls for surface
   detail, texture sharpness, brightness, contrast, water clarity and reef colour.
   Lower brightness brings out selected fluorescent coral colours; changing the
   rock from limestone to dark grey or magma black preserves coral colours.
@@ -60,7 +69,7 @@ separately. You do not need a GitHub account or access token to check for update
 
 The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
-The existing media predates the new 1.1.0 appearance controls.
+The existing media predates the 1.1.0 appearance controls and 1.2.0 reef additions.
 The short preview is silent, so you can add your own licensed soundtrack.
 
 Feedback is welcome in [Issues](https://github.com/ShakieVan/Ocean-LiveWallpaper/issues).
