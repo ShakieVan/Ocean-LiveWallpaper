@@ -34,6 +34,26 @@ turn off your browser's permission.
 
 ## Google Play Protect
 
+> [!NOTE]
+> **Latest result: 1.2.0 installed successfully on September 14, 2026.** A fresh
+> API-36 Android emulator initially had no Ocean installation. We installed
+> **1.0.2 / version code 14** through ADB as the starting version, then used
+> Ocean's public updater to find, download and verify **1.2.0**. Android's system
+> installer completed that update. No scan or block dialog appeared; no override
+> was used and no protection settings were changed. This observation applies to
+> this emulator test, not your phone or a general Play Protect clearance.
+
+<img src="media/update-1.2.0-verified.png" width="330" alt="Ocean 1.0.2 reports that the public 1.2.0 update download is verified and ready to install" />
+<img src="media/update-1.2.0-installed.png" width="330" alt="Android's system installer confirms that Ocean 1.2.0 was successfully installed on September 14, 2026" />
+
+The installed package reported **1.2.0 / version code 17**, with Android's system
+package installer recorded as the installer. Ocean then opened successfully;
+the checked crash log was empty. After Ocean's reminder, its permission to
+install unknown apps was turned off again and confirmed disabled. These
+unchanged screenshots show the update using the published release APK.
+
+### Earlier Tests: 1.1.0 and 1.0.3
+
 > [!WARNING]
 > **1.1.0 was also blocked on September 14, 2026.** Ocean 1.0.2 found and
 > downloaded the new release, and its file, package, version and signing checks
@@ -78,8 +98,8 @@ wording and layout may differ.
 - **OK** (`Ok`) closes the blocked-installation dialog without installing the update.
 - The expanded panel may offer **Install anyway** (`Trotzdem installieren`).
   That overrides this installation block; it is not a successful security check
-  or Google approval. Our test did **not** select it. We recommend leaving the
-  block in place while the classification remains unresolved.
+  or Google approval. The earlier blocked tests did **not** select it. We
+  recommend leaving the block in place while the classification remains unresolved.
 
 Do not disable Play Protect globally to install Ocean. If the dialog only asks
 for a scan, let the scan finish and read its result; do not assume it will be

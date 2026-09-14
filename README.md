@@ -14,10 +14,13 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 | [Download the preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
-> **Installation status:** Google Play Protect blocked version **1.1.0** after a
-> requested scan during the September 14, 2026 emulator update test. The download
-> and Ocean's integrity checks passed, but Android did not complete installation.
-> Version 1.0.3 was also blocked. An appeal for 1.0.3 was submitted on September 13, 2026;
+> **Latest installation result:** On September 14, 2026, a fresh API-36 Android
+> emulator successfully updated from **1.0.2 to 1.2.0** through Ocean's public
+> updater and Android's system installer. Download and integrity checks passed;
+> no scan or block dialog appeared, and no protection was overridden or changed.
+> This is an emulator result, not a phone test or general Play Protect clearance.
+> Earlier tests blocked **1.1.0** after a requested scan on September 14 and
+> **1.0.3** on September 13. An appeal for 1.0.3 was submitted on September 13, 2026;
 > Google has not communicated a decision. A subsequent
 > [VirusTotal scan reported 0/67 detections](https://www.virustotal.com/gui/file/4591edc13eeb30c1aeaca974bb541c8e6b026a1593933678c6c7cd28ed3ab172),
 > which applies to that 1.0.3 file only and is not a safety guarantee or Play Protect
@@ -69,7 +72,8 @@ separately. You do not need a GitHub account or access token to check for update
 
 The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
-The existing media predates the 1.1.0 appearance controls and 1.2.0 reef additions.
+The homepage scene image and video predate the 1.1.0 appearance controls and
+1.2.0 reef additions. The installation guide includes newer 1.2.0 screenshots.
 The short preview is silent, so you can add your own licensed soundtrack.
 
 Feedback is welcome in [Issues](https://github.com/ShakieVan/Ocean-LiveWallpaper/issues).

@@ -50,3 +50,27 @@ without cropping, recolouring, added captions or other image changes; the
 installation guide only scales their displayed width. No imagery was taken
 from the reference application or comparison videos. The older media and
 system-dialog records above retain their original dates and scope.
+
+## Public 1.2.0 Update — September 14, 2026
+
+These unchanged 1080 × 2400 screenshots document an actual public-release update
+on a fresh API-36 Android emulator. Ocean was initially absent; only the starting
+version, **1.0.2 / version code 14**, was installed through ADB. Ocean's public
+updater then found, downloaded and verified **1.2.0**, and Android's system
+installer installed **1.2.0 / version code 17** successfully.
+
+| File | Observed step |
+| --- | --- |
+| [update-1.2.0-verified.png](update-1.2.0-verified.png) | Ocean 1.0.2 shows the verified 1.2.0 download ready for installation. |
+| [update-1.2.0-installed.png](update-1.2.0-installed.png) | Android's system installer confirms successful installation. |
+| [update-1.2.0-main.png](update-1.2.0-main.png) | The installed public Ocean 1.2.0 release running after the update. |
+
+No scan or block dialog appeared during this update, no override was selected,
+and no protection settings were changed. After Ocean's reminder, its permission
+to install unknown apps was switched off again and confirmed disabled. This is
+an emulator observation, not a phone test or general Play Protect clearance;
+the earlier blocked-installation records retain their dates and scope.
+
+The screenshot files are direct copies without cropping, recolouring, captions
+or other image edits. The installation guide only scales their displayed width.
+The published APK was unchanged for this test.
