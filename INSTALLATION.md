@@ -34,6 +34,16 @@ turn off your browser's permission.
 
 ## Google Play Protect
 
+> [!WARNING]
+> **1.1.0 was also blocked on September 14, 2026.** Ocean 1.0.2 found and
+> downloaded the new release, and its file, package, version and signing checks
+> passed. Android requested a Play Protect scan; after that scan it displayed
+> "Harmful app blocked" and "This app might be harmful". The details did not
+> identify a specific cause. We left the block in place; 1.0.2 remained installed.
+> This is an emulator result, not a completed update or a test on your phone.
+
+<img src="media/play-protect-1.1.0.png" width="330" alt="Play Protect blocks the Ocean 1.1.0 update after a requested scan on September 14, 2026" />
+
 > [!NOTE]
 > During our September 13, 2026 emulator test, Play Protect blocked **1.0.3**
 > with `POTENTIALLY_UNWANTED / generic_malware`. The scan did not identify a

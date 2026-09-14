@@ -14,8 +14,10 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 | [Download the preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
-> **Installation status:** Google Play Protect blocked version 1.0.3 during an
-> emulator test. A classification appeal was submitted on September 13, 2026;
+> **Installation status:** Google Play Protect blocked version **1.1.0** after a
+> requested scan during the September 14, 2026 emulator update test. The download
+> and Ocean's integrity checks passed, but Android did not complete installation.
+> Version 1.0.3 was also blocked. An appeal for 1.0.3 was submitted on September 13, 2026;
 > Google has not communicated a decision. A subsequent
 > [VirusTotal scan reported 0/67 detections](https://www.virustotal.com/gui/file/4591edc13eeb30c1aeaca974bb541c8e6b026a1593933678c6c7cd28ed3ab172),
 > which applies to that 1.0.3 file only and is not a safety guarantee or Play Protect
