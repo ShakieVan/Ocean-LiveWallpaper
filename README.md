@@ -18,7 +18,8 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 > emulator test. A classification appeal was submitted on September 13, 2026;
 > Google has not communicated a decision. A subsequent
 > [VirusTotal scan reported 0/67 detections](https://www.virustotal.com/gui/file/4591edc13eeb30c1aeaca974bb541c8e6b026a1593933678c6c7cd28ed3ab172),
-> which is not a safety guarantee or Play Protect clearance.
+> which applies to that 1.0.3 file only and is not a safety guarantee or Play Protect
+> clearance for 1.0.3 or 1.1.0.
 > [See the screenshots and installation notes](INSTALLATION.md#google-play-protect).
 
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
@@ -30,6 +31,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
+- New in **1.1.0**: finer reef textures and fish scales, with controls for surface
+  detail, texture sharpness, brightness, contrast, water clarity and reef colour.
+  Lower brightness brings out selected fluorescent coral colours; changing the
+  rock from limestone to dark grey or magma black preserves coral colours.
+  [Adjust the appearance](INSTALLATION.md#appearance-controls).
 - Adjust fish count, swimming speed, extra vegetation, shadows and tilt strength.
 - Choose exactly **30, 40, 50 or 60 FPS**. Rendering pauses when Android reports
   the wallpaper as invisible; actual power use depends on your device and settings.
@@ -52,6 +58,7 @@ separately. You do not need a GitHub account or access token to check for update
 
 The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
+The existing media predates the new 1.1.0 appearance controls.
 The short preview is silent, so you can add your own licensed soundtrack.
 
 Feedback is welcome in [Issues](https://github.com/ShakieVan/Ocean-LiveWallpaper/issues).

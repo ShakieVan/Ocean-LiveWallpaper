@@ -48,6 +48,8 @@ showed **0/67 detections**, including Google "Undetected". Seven other engines
 could not process the file type and one failed; those do not count as clean checks.
 This is additional evidence, not an exhaustive security audit or confirmation that
 on-device Play Protect has changed its result. The appeal included the scan result.
+That report is for the exact 1.0.3 APK. It is not a scan of 1.1.0, and no Play
+Protect clearance for 1.1.0 is claimed here.
 
 This is different from a message that merely says an app is unfamiliar or asks
 to scan it. It is not known to be caused by small download numbers, a missing
@@ -89,3 +91,28 @@ These checks establish identity and integrity, not that an APK is harmless.
 Open Ocean, set your view, and tap **Set wallpaper**. Use Android's own picker
 to select the destination offered by your phone. Keep installation permission
 off when you do not need it; the wallpaper does not need it to run.
+
+## Appearance Controls
+
+Version 1.1.0 adds six controls in **Settings** (`Einstellungen`). The current
+app uses the German labels shown below. Changes are saved for the preview and
+live wallpaper.
+
+| Control in the app | What it changes | Default |
+| --- | --- | --- |
+| **Oberflächendetails** — Surface detail | Basic / Fine / High / Maximum (`Basis / Fein / Hoch / Maximum`) adjust extra reef detail and fish scales. | High (`Hoch`) |
+| **Texturschärfe** — Texture sharpness | 0–100% strengthens existing fine texture contrast on reef and fish. | Off (`Aus`) |
+| **Helligkeit** — Brightness | 30–150%; below 100%, selected fluorescent coral colours stand out more. | 100% |
+| **Kontrast** — Contrast | 50–150% adjusts image contrast. | 100% |
+| **Wasserklarheit** — Water clarity | 0–100%; lower values shorten visibility through the water. Maximum (`Klar`) retains the previous clear view. | Clear, 100% |
+| **Rifffarbe** — Reef colour | Limestone (`Kalk`) at 0%, dark grey (`Dunkelgrau`) at 50%, magma black (`Magma-Schwarz`) at 100%, with smooth transitions. Only the rocks change colour. | Limestone, 0% |
+
+Try the defaults first, then adjust one control at a time. Use a lower surface
+detail setting if you prefer less graphics work; device performance and battery
+use vary. Texture sharpness is optional and does not add new objects. Magma black
+is dark rock, not glowing lava.
+
+The camera reset button resets the view while keeping these appearance choices.
+Fish count, tilt strength, shadows and the 30/40/50/60 FPS options remain in
+Settings. Android's wallpaper picker determines which screen destinations your
+phone supports.
