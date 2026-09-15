@@ -135,3 +135,11 @@ This is an emulator result, not phone testing or general Play Protect clearance.
 
 The three `update-1.4.0-*.png` files are unchanged native screenshots of
 the verified download, successful Android installation and reopened app.
+
+## Tunnel placement and texture controls — 1.4.1, September 15, 2026
+
+The three `tunnel-1.4.1-*.png` images are unchanged native 1080×2400 captures
+from the final scene. The camera and lighting are fixed and fish are disabled
+to isolate surface changes. Off, sharpness 100% and contours 100% are separate
+settings; the displayed sizes may be scaled. No image sharpening, repainting
+or other postprocessing was applied to the captures.

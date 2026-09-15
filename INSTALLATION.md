@@ -170,7 +170,7 @@ off when you do not need it; the wallpaper does not need it to run.
 
 ## Appearance Controls
 
-The **1.4.0** expands the seven appearance controls from 1.3.0 to
+Version **1.4.0** expands the seven appearance controls from 1.3.0 to
 **nine** in **Settings** (`Einstellungen`). Its new controls have passed the
 first emulator checks; the final release is still in preparation. The German
 labels appear below. Changes are saved for the preview and live wallpaper.
@@ -181,7 +181,7 @@ The older screenshot retains its 1.2.1 version and does not show the two additio
 | Control in the app | What it changes | Default |
 | --- | --- | --- |
 | **Detailgrad** — Detail level | Basic / Fine / High / Maximum (`Basis / Fein / Hoch / Maximum`) adjust reef relief and fish scales. Basic and Fine use simpler imported coral models; High and Maximum show finer shapes. | High (`Hoch`) |
-| **Texturschärfe** — Texture sharpness | 0–100% strengthens local texture details on reef, fish and plants. The 1.4.0 improves this control. | Off (`Aus`) |
+| **Texturschärfe** — Texture sharpness | 0–100% strengthens local texture details on reef, fish and plants. Version 1.4.1 makes its maximum noticeably stronger. | Off (`Aus`) |
 | **Detailkonturen** — Fine texture contours | New in 1.4.0: 0–100% strengthens fine existing lines inside textures, without outlining whole objects. | Off (`Aus`) |
 | **Helligkeit** — Brightness | 30–150%; lower values dim the surroundings while fluorescent colours stand out more. | 100% |
 | **Fluoreszenz** — Fluorescence | 0–200%, independent of brightness: off / normal at 100% / exaggerated at 200%. Controls selected coral colours, the blue clam band and artistic fish and nursery markings. | 100% |
@@ -206,7 +206,7 @@ phone supports.
 
 ## Camera Gestures
 
-The **1.4.0** supports gestures directly in the app preview:
+Version **1.4.0** supports gestures directly in the app preview:
 
 - Drag one finger to rotate the view.
 - Drag two fingers together to move the view.
@@ -241,7 +241,7 @@ with many overlapping scale-like growths, and refines fan branches, plate edges
 and folded cups. The name describes an original visual form, not a biological
 species identification.
 
-The **1.4.0** refines existing forms with three broad turquoise-orange
+Version **1.4.0** refines existing forms with three broad turquoise-orange
 solitary discs, three thin brown-beige coral terraces and slimmer scale columns.
 It keeps the same fourteen reef types, eight fish types and 22 model portraits.
 Two additional giant clams bring the total to **five**, sitting on existing rock
@@ -252,7 +252,7 @@ scene and release checks are still in progress; the older images predate these c
 - **Corals & clams** (`Korallen & Muscheln`): switch each of fourteen reef types
   on or off, including the new scale column and giant clams. Each of the six earlier
   coral forms has three colonies. The giant-clam switch controls all clams:
-  three in 1.3.0 and five in the 1.4.0.
+  three in 1.3.0 and five since 1.4.0.
 
 Both menus offer **All on / All off** (`Alle an / Alle aus`). The eye icon
 beside each switch opens a small model portrait without changing the selection.
@@ -313,3 +313,18 @@ slender scale column; each retains its existing individual species switch.
 <img src="media/disc-1.4.0.png" width="240" alt="Turquoise-orange solitary disc" />
 <img src="media/terrace-1.4.0.png" width="240" alt="Thin brown-beige terraces" />
 <img src="media/scale-column-1.4.0.png" width="240" alt="Slender blue-violet scale column" />
+
+## Texture comparison in 1.4.1
+
+The two clams added in 1.4.0 have moved to the front wall and higher rear rock
+of the far-right tunnel view. The original three remain in place.
+
+These are unchanged native Android captures using the same camera and scene.
+Fish are disabled and lighting is frozen for this comparison. Both controls
+are off in the first image; the second sets only texture sharpness to 100%,
+and the third sets only fine contours to 100%. Other settings stay unchanged.
+Maximum is deliberately strong; intermediate values provide a subtler result.
+
+<img src="media/tunnel-1.4.1-off.png" width="280" alt="Both texture controls off; the two moved clams are visible on the tunnel reef" />
+<img src="media/tunnel-1.4.1-sharpness-100.png" width="280" alt="Texture sharpness at 100 percent, with much stronger local texture contrast" />
+<img src="media/tunnel-1.4.1-contours-100.png" width="280" alt="Fine contours at 100 percent, emphasizing dark texture lines" />
