@@ -34,7 +34,25 @@ turn off your browser's permission.
 
 ## Google Play Protect
 
-### Latest successful update: 1.4.0
+### Latest successful update: 1.4.1
+
+On September 15, 2026, a fresh API-36 emulator received original 1.4.0
+as the starting version, then updated to **1.4.1 / code 21** through Ocean's
+public updater and Android's system installer. The download was verified,
+installation succeeded and Ocean reopened with an empty crash log. No scan or
+block dialog appeared. Ocean's installation permission was switched off again.
+This is an emulator result, not phone testing or general Play Protect clearance.
+
+<img src="media/update-1.4.1-verified.png" width="330" alt="Ocean 1.4.0 has verified the public 1.4.1 download" />
+<img src="media/update-1.4.1-installed.png" width="330" alt="Android confirms the successful installation of Ocean 1.4.1" />
+<img src="media/update-1.4.1-main.png" width="330" alt="Ocean 1.4.1 running after its public in-app update" />
+
+Only the starting APK used ADB. Android recorded
+`com.google.android.packageinstaller` as the installer of the update.
+The published APK is unchanged: **130,816,783 bytes**, SHA-256
+`cbc7e7f82ecff59c8abe63498ac0085c74a477ef85f96810e33be36282d23e28`.
+
+### Earlier successful update: 1.4.0
 
 On September 15, 2026, a fresh API-36 emulator received original 1.3.0
 as its starting version, then updated to **1.4.0 / code 20** through Ocean's

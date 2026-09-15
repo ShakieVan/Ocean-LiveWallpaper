@@ -143,3 +143,15 @@ from the final scene. The camera and lighting are fixed and fish are disabled
 to isolate surface changes. Off, sharpness 100% and contours 100% are separate
 settings; the displayed sizes may be scaled. No image sharpening, repainting
 or other postprocessing was applied to the captures.
+
+## Public update 1.4.0 to 1.4.1 — September 15, 2026
+
+On September 15, 2026, a fresh API-36 emulator received original 1.4.0
+as the starting version, then updated to **1.4.1 / code 21** through Ocean's
+public updater and Android's system installer. The download was verified,
+installation succeeded and Ocean reopened with an empty crash log. No scan or
+block dialog appeared. Ocean's installation permission was switched off again.
+This is an emulator result, not phone testing or general Play Protect clearance.
+
+The three `update-1.4.1-*.png` files are unchanged native screenshots of
+the verified download, successful Android installation and reopened app.
