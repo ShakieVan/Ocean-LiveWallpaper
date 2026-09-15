@@ -244,8 +244,10 @@ Version **1.4.0** supports gestures directly in the app preview:
 
 After lifting one finger from a two-finger gesture, lift the remaining finger
 before starting a new rotation. A small tap still triggers the little shelter
-schools' response. The camera button opens a compact menu with reset and advanced sliders;
-the advanced controls remain available for precise adjustments.
+schools' response. Since 1.5.1, the **Refresh** icon beside **Set wallpaper**
+chooses another prepared coral layout. Open **Settings > Camera**
+(`Einstellungen > Kamera einstellen`) for camera reset and advanced sliders.
+Those fine controls remain available for precise adjustments.
 
 In 1.5.0, camera edits stay in the app until you confirm **Set wallpaper** in
 Android's system picker. The picker shows your edited view. Canceling keeps

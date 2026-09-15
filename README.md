@@ -33,6 +33,10 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.5.1:** the camera shortcut is now a Refresh button for immediate coral
+redistribution. Camera reset and sliders remain under **Settings > Camera**.
+[Release notes](releases/v1.5.1.md).
+
 **1.5.0:** camera changes wait for Android's final wallpaper selection; outer
 reef colonies, four even coral layouts, clearer organ pipes, scrolls, scale
 columns and antlers, and refreshed native species portraits.
@@ -48,6 +52,9 @@ texture marks, and gentler shading in small recesses.
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
+- New in **1.5.1**: tap the Refresh icon beside **Set wallpaper** to choose a
+  different prepared coral layout. Camera fine controls moved into Settings;
+  gestures in the app preview still work. [Release notes](releases/v1.5.1.md).
 - New in **1.5.0**: camera edits appear in Ocean and Android's wallpaper
   preview but reach the active wallpaper only after **Set wallpaper** is
   confirmed. The coral menu can pick another of four balanced layouts; outer
