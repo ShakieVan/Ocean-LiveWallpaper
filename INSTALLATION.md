@@ -34,6 +34,9 @@ turn off your browser's permission.
 
 ## Google Play Protect
 
+Version **1.4.0** is available. Its public-update installation check is being
+completed; the latest completed result below concerns **1.3.0**.
+
 > [!NOTE]
 > **Latest result: 1.3.0 installed successfully on September 14, 2026.** A fresh
 > API-36 Android emulator initially had no Ocean installation. We installed
@@ -151,25 +154,29 @@ off when you do not need it; the wallpaper does not need it to run.
 
 ## Appearance Controls
 
-Version 1.3.0 has seven appearance controls in **Settings** (`Einstellungen`). The current
-app uses the German labels shown below. Changes are saved for the preview and
-live wallpaper.
+The **1.4.0** expands the seven appearance controls from 1.3.0 to
+**nine** in **Settings** (`Einstellungen`). Its new controls have passed the
+first emulator checks; the final release is still in preparation. The German
+labels appear below. Changes are saved for the preview and live wallpaper.
+The older screenshot retains its 1.2.1 version and does not show the two additions.
 
 <img src="media/appearance-1.2.1.png" width="330" alt="Ocean 1.2.1 appearance settings with independent brightness and fluorescence sliders, contrast, water clarity and reef colour" />
 
 | Control in the app | What it changes | Default |
 | --- | --- | --- |
 | **Detailgrad** — Detail level | Basic / Fine / High / Maximum (`Basis / Fein / Hoch / Maximum`) adjust reef relief and fish scales. Basic and Fine use simpler imported coral models; High and Maximum show finer shapes. | High (`Hoch`) |
-| **Texturschärfe** — Texture sharpness | 0–100% strengthens existing fine texture contrast on reef and fish. | Off (`Aus`) |
+| **Texturschärfe** — Texture sharpness | 0–100% strengthens local texture details on reef, fish and plants. The 1.4.0 improves this control. | Off (`Aus`) |
+| **Detailkonturen** — Fine texture contours | New in 1.4.0: 0–100% strengthens fine existing lines inside textures, without outlining whole objects. | Off (`Aus`) |
 | **Helligkeit** — Brightness | 30–150%; lower values dim the surroundings while fluorescent colours stand out more. | 100% |
 | **Fluoreszenz** — Fluorescence | 0–200%, independent of brightness: off / normal at 100% / exaggerated at 200%. Controls selected coral colours, the blue clam band and artistic fish and nursery markings. | 100% |
 | **Kontrast** — Contrast | 50–150% adjusts image contrast. | 100% |
+| **Farbsättigung** — Colour saturation | New in 1.4.0: 0% grayscale, 100% the existing colours, 200% stronger colours. This also affects the displayed fluorescent colours while preserving the separate fluorescence setting. | 100% |
 | **Wasserklarheit** — Water clarity | 0–100%; lower values shorten visibility through the water. Maximum (`Klar`) retains the previous clear view. | Clear, 100% |
 | **Rifffarbe** — Reef colour | Limestone (`Kalk`) at 0%, dark grey (`Dunkelgrau`) at 50%, magma black (`Magma-Schwarz`) at 100%, with smooth transitions. Only the rocks change colour. | Limestone, 0% |
 
 Try the defaults first, then adjust one control at a time. Use a lower surface
 detail setting if you prefer less graphics work; device performance and battery
-use vary. Texture sharpness is optional and does not add new objects. Magma black
+use vary. Texture sharpness and fine contours are optional and do not add new objects. Magma black
 is dark rock, not glowing lava.
 
 Fluorescent fish patterns are artistic body lines, spots and tail accents;
@@ -180,6 +187,23 @@ The camera reset button resets the view while keeping these appearance choices.
 Fish count, tilt strength, shadows and the 30/40/50/60 FPS options remain in
 Settings. Android's wallpaper picker determines which screen destinations your
 phone supports.
+
+## Camera Gestures
+
+The **1.4.0** supports gestures directly in the app preview:
+
+- Drag one finger to rotate the view.
+- Drag two fingers together to move the view.
+- Move two fingers apart or together to zoom.
+
+After lifting one finger from a two-finger gesture, lift the remaining finger
+before starting a new rotation. A small tap still triggers the little shelter
+schools' response. The camera button opens a compact menu with reset and advanced sliders;
+the advanced controls remain available for precise adjustments.
+
+Camera edits are saved and also apply to the live wallpaper. Reset changes only
+the camera. These drag and pinch gestures belong to the app preview; the wallpaper
+retains its existing tap response and leaves the launcher's gestures in place.
 
 ## Coral Variety and Extra Growth
 
@@ -201,10 +225,18 @@ with many overlapping scale-like growths, and refines fan branches, plate edges
 and folded cups. The name describes an original visual form, not a biological
 species identification.
 
+The **1.4.0** refines existing forms with three broad turquoise-orange
+solitary discs, three thin brown-beige coral terraces and slimmer scale columns.
+It keeps the same fourteen reef types, eight fish types and 22 model portraits.
+Two additional giant clams bring the total to **five**, sitting on existing rock
+toward the right foreground and farther back at a higher position. Final native
+scene and release checks are still in progress; the older images predate these changes.
+
 - **Fish species** (`Fischarten`): switch each of eight fish types on or off.
 - **Corals & clams** (`Korallen & Muscheln`): switch each of fourteen reef types
   on or off, including the new scale column and giant clams. Each of the six earlier
-  coral forms has three colonies; the giant-clam switch controls three clams.
+  coral forms has three colonies. The giant-clam switch controls all clams:
+  three in 1.3.0 and five in the 1.4.0.
 
 Both menus offer **All on / All off** (`Alle an / Alle aus`). The eye icon
 beside each switch opens a small model portrait without changing the selection.
@@ -213,9 +245,10 @@ identify a type before choosing it. Scroll the coral list to see all fourteen
 entries. Choose **Close** (`Schließen`) to return from a portrait and **Done**
 (`Fertig`) to close the species menu.
 
-Updating preserves individual exclusions. If you had enabled every previously
-available reef type, the new scale column is enabled automatically. You can
-switch it off independently, and that choice is saved.
+Updating preserves individual exclusions. The 1.3.0 update automatically enabled
+the new scale column only when every previously available reef type was enabled.
+You can switch it off independently, and that choice is saved. Version 1.4.0
+keeps the same catalog and retains the existing selections.
 
 These unchanged screenshots show the German menus and the giant-clam portrait
 in Ocean 1.2.0 on an Android emulator. Your phone's layout may differ.
@@ -250,8 +283,7 @@ many colonies at each enabled step. These totals apply with all coral types on:
 | 100% | 31 | 62 |
 
 Disabling a coral type also removes that type from additional growth, so fewer
-colonies may be shown than the totals above. The original reef placements stay
-in place. Species choices and growth apply to the preview and live wallpaper
+colonies may be shown than the totals above. Species choices and growth apply to the preview and live wallpaper
 and are preserved by camera reset. Fewer enabled reef types or less extra growth
 draw fewer objects; actual performance and battery use depend on your device.
 Existing texture sharpness and the selected fluorescence strength also apply to

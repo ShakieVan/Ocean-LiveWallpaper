@@ -39,6 +39,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
+- New in **1.4.0**: fine texture contours, adjustable colour
+  saturation and improved texture sharpness, plus one-finger rotation and
+  two-finger pan/pinch in the app preview. Broad turquoise-orange discs, thin
+  brown-beige coral terraces and slimmer scale columns refine existing types;
+  five giant clams rest on the existing reef. [Release notes](releases/v1.4.0.md).
 - New in **1.3.0**: finer coral shapes, stronger surface relief and finer fish
   scales, plus blue-violet scale columns. The **Detailgrad** control also
   selects simpler or more detailed coral models. **Corals & clams** now offers
@@ -87,7 +92,8 @@ The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
 The homepage scene image and video predate the 1.1.0 appearance controls and
 1.2.0 reef additions. The installation guide includes newer 1.2.0 and 1.2.1
-screenshots, including the completed public 1.2.1 update.
+screenshots, plus the completed public 1.3.0 update. Existing media retain
+their original version labels; final 1.4.0 images have not been added yet.
 The short preview is silent, so you can add your own licensed soundtrack.
 
 Feedback is welcome in [Issues](https://github.com/ShakieVan/Ocean-LiveWallpaper/issues).

@@ -36,6 +36,13 @@ Suggested description:
 
 The preview itself is not a video wallpaper and does not replace the APK.
 
+## Ocean 1.4.0 — September 15, 2026
+
+`disc-1.4.0.png`, `terrace-1.4.0.png` and `scale-column-1.4.0.png` are native
+480×480 model portraits from the final Android scene. `camera-1.4.0.png` is a
+direct screenshot of the signed app's compact gesture help. The files are
+unchanged native captures; no reference-app pixels or photo edits were used.
+
 ## Species Menus and Giant-Clam Preview — September 14, 2026
 
 The following three images are unchanged 1080 × 2400 screen captures from
