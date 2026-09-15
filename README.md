@@ -33,12 +33,20 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.4.2:** clearer fish fin attachments, corrected bannerfish and blue tang
+texture marks, and gentler shading in small recesses.
+[Release notes and native before/after images](releases/v1.4.2.md).
+
 ## Your Own Corner of the Reef
 
 - Eight fish types with animated bodies and fins, plus small schools that
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
+- New in **1.4.2**: local colour corrections for the bannerfish and blue tang,
+  protection against overly dark fin attachments at high texture-control
+  settings, and gentler ambient occlusion with directional shadows retained.
+  All eight species were examined. [Release notes](releases/v1.4.2.md).
 - New in **1.4.1**: the two additional clams now sit in the far-right tunnel
   view. Texture sharpness and fine contours have much stronger maximum settings,
   including on the rear reef. [Release notes](releases/v1.4.1.md).
@@ -95,8 +103,9 @@ The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
 The homepage scene image and video predate the 1.1.0 appearance controls and
 1.2.0 reef additions. The installation guide includes newer coral portraits,
-camera controls and completed public updates through 1.4.1. Existing media
-retain their original version labels and capture descriptions.
+camera controls and completed public updates through 1.4.1. The 1.4.2 release
+notes add a native fish before/after comparison. Existing media retain their
+original version labels and capture descriptions.
 The short preview is silent, so you can add your own licensed soundtrack.
 
 Feedback is welcome in [Issues](https://github.com/ShakieVan/Ocean-LiveWallpaper/issues).
