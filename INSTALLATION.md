@@ -34,11 +34,27 @@ turn off your browser's permission.
 
 ## Google Play Protect
 
-Version **1.4.0** is available. Its public-update installation check is being
-completed; the latest completed result below concerns **1.3.0**.
+### Latest successful update: 1.4.0
+
+On September 15, 2026, a fresh API-36 emulator received original 1.3.0
+as its starting version, then updated to **1.4.0 / code 20** through Ocean's
+public updater and Android's system installer. Download verification succeeded;
+no scan or block dialog appeared. Ocean reopened successfully, its crash log
+was empty, and its temporary installation permission was switched off again.
+This is an emulator result, not phone testing or general Play Protect clearance.
+
+<img src="media/update-1.4.0-verified.png" width="330" alt="Ocean 1.3.0 has verified the public 1.4.0 download" />
+<img src="media/update-1.4.0-installed.png" width="330" alt="Android confirms that Ocean 1.4.0 was installed" />
+<img src="media/update-1.4.0-main.png" width="330" alt="Public Ocean 1.4.0 running after its in-app update" />
+
+Only the original starting APK used ADB. Android recorded
+`com.google.android.packageinstaller` as the installer of 1.4.0.
+The published 130,816,783-byte APK has not been replaced.
+
+### Earlier successful update: 1.3.0
 
 > [!NOTE]
-> **Latest result: 1.3.0 installed successfully on September 14, 2026.** A fresh
+> **Earlier result: 1.3.0 installed successfully on September 14, 2026.** A fresh
 > API-36 Android emulator initially had no Ocean installation. We installed
 > **1.2.1 / version code 18** through ADB as the starting version, then used
 > Ocean's public updater to find, download and verify **1.3.0**. Android's system
@@ -288,3 +304,12 @@ and are preserved by camera reset. Fewer enabled reef types or less extra growth
 draw fewer objects; actual performance and battery use depend on your device.
 Existing texture sharpness and the selected fluorescence strength also apply to
 the new mapped coral surfaces.
+
+## Updated coral portraits in 1.4.0
+
+These native model portraits show the revised solitary disc, thin terraces and
+slender scale column; each retains its existing individual species switch.
+
+<img src="media/disc-1.4.0.png" width="240" alt="Turquoise-orange solitary disc" />
+<img src="media/terrace-1.4.0.png" width="240" alt="Thin brown-beige terraces" />
+<img src="media/scale-column-1.4.0.png" width="240" alt="Slender blue-violet scale column" />

@@ -123,3 +123,15 @@ remain historical evidence. The screenshot files are direct copies without
 cropping, recolouring, captions or other edits; displayed widths may be scaled.
 The tested APK is the unchanged published **101,402,238-byte** file, SHA-256
 `18ab811f010bbd2d292f1271e075f00bd57c0eff29905d802b304703a2493a75`.
+
+## Public update 1.3.0 to 1.4.0 — September 15, 2026
+
+On September 15, 2026, a fresh API-36 emulator received original 1.3.0
+as its starting version, then updated to **1.4.0 / code 20** through Ocean's
+public updater and Android's system installer. Download verification succeeded;
+no scan or block dialog appeared. Ocean reopened successfully, its crash log
+was empty, and its temporary installation permission was switched off again.
+This is an emulator result, not phone testing or general Play Protect clearance.
+
+The three `update-1.4.0-*.png` files are unchanged native screenshots of
+the verified download, successful Android installation and reopened app.
