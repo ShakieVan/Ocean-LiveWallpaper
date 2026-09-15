@@ -235,8 +235,14 @@ before starting a new rotation. A small tap still triggers the little shelter
 schools' response. The camera button opens a compact menu with reset and advanced sliders;
 the advanced controls remain available for precise adjustments.
 
-Camera edits are saved and also apply to the live wallpaper. Reset changes only
-the camera. These drag and pinch gestures belong to the app preview; the wallpaper
+In 1.5.0, camera edits stay in the app until you confirm **Set wallpaper** in
+Android's system picker. The picker shows your edited view. Canceling keeps
+the active wallpaper's prior camera angle; returning to Ocean retains your
+unsaved draft for another attempt. Reset changes only the draft camera. The
+coral menu's **Redistribute corals** button picks another of four prepared,
+balanced layouts. Each coral form also has colonies on the outer left and
+right reef. The five giant clams stay where they were. These drag and pinch
+gestures belong to the app preview; the wallpaper
 retains its existing tap response and leaves the launcher's gestures in place.
 
 ## Coral Variety and Extra Growth
@@ -263,8 +269,8 @@ Version **1.4.0** refines existing forms with three broad turquoise-orange
 solitary discs, three thin brown-beige coral terraces and slimmer scale columns.
 It keeps the same fourteen reef types, eight fish types and 22 model portraits.
 Two additional giant clams bring the total to **five**, sitting on existing rock
-toward the right foreground and farther back at a higher position. Final native
-scene and release checks are still in progress; the older images predate these changes.
+toward the right foreground and farther back at a higher position. The older
+images predate these changes.
 
 - **Fish species** (`Fischarten`): switch each of eight fish types on or off.
 - **Corals & clams** (`Korallen & Muscheln`): switch each of fourteen reef types

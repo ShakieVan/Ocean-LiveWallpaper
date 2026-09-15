@@ -33,6 +33,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.5.0:** camera changes wait for Android's final wallpaper selection; outer
+reef colonies, four even coral layouts, clearer organ pipes, scrolls, scale
+columns and antlers, and refreshed native species portraits.
+[Release notes](releases/v1.5.0.md).
+
 **1.4.2:** clearer fish fin attachments, corrected bannerfish and blue tang
 texture marks, and gentler shading in small recesses.
 [Release notes and native before/after images](releases/v1.4.2.md).
@@ -43,6 +48,11 @@ texture marks, and gentler shading in small recesses.
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
+- New in **1.5.0**: camera edits appear in Ocean and Android's wallpaper
+  preview but reach the active wallpaper only after **Set wallpaper** is
+  confirmed. The coral menu can pick another of four balanced layouts; outer
+  colonies place each coral form on both sides. All 22 portraits were captured
+  again from the current models. [Release notes](releases/v1.5.0.md).
 - New in **1.4.2**: local colour corrections for the bannerfish and blue tang,
   protection against overly dark fin attachments at high texture-control
   settings, and gentler ambient occlusion with directional shadows retained.
@@ -87,7 +97,8 @@ texture marks, and gentler shading in small recesses.
 
 1. Read the installation note above and download the universal APK from Releases.
 2. Install it with Android's system installer, then open **Ocean**.
-3. Choose your camera angle and settings, then tap **Set wallpaper**.
+3. Choose your camera angle and settings, then tap **Set wallpaper** and confirm
+   the destination in Android's system picker.
 
 Android supplies the home/lock-screen destination picker. Available combinations
 depend on your phone and launcher. Android 9 or newer and OpenGL ES 3.0 are required.
