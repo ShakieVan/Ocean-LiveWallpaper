@@ -14,8 +14,8 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 | [Download the preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
-> **Latest installation result:** On September 15, 2026, a fresh API-36 Android
-> emulator successfully updated from **1.4.2 to 1.5.0** through Ocean's public
+> **Latest installation result:** On September 20, 2026, a fresh API-36 Android
+> emulator successfully updated from **1.5.1 to 1.6.0** through Ocean's public
 > updater and Android's system installer. Download and integrity checks passed;
 > no scan or block dialog appeared, and no Play Protect override or global
 > protection change was used.
@@ -131,7 +131,7 @@ The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
 The homepage scene image and video predate the 1.1.0 appearance controls and
 1.2.0 reef additions. The installation guide includes newer coral portraits,
-camera controls and completed public updates through 1.5.0. The 1.4.2 release
+camera controls and completed public updates through 1.6.0. The 1.4.2 release
 notes add a native fish before/after comparison. The [1.6.0 gallery](releases/v1.6.0.md#native-android-captures)
 shows the current fluorescence and full coral redistribution in frozen emulator
 test frames. Existing media retain their

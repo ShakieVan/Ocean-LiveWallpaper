@@ -34,7 +34,22 @@ turn off your browser's permission.
 
 ## Google Play Protect
 
-### Latest successful update: 1.5.0
+### Latest successful update: 1.6.0
+
+On September 20, 2026, a fresh API-36 emulator received original **1.5.1**
+as its starting version. Ocean downloaded and verified public **1.6.0 / code 25**,
+and Android's system installer completed the update. Only the starting version
+used ADB. The installed APK matched the public download byte for byte, and
+Android recorded its system package installer as the installer.
+
+Ocean reopened with an empty crash log. The 30 FPS setting chosen before the
+update was retained, and Ocean's temporary installation permission was switched
+off through its reminder. No scan or block dialog appeared. This emulator result
+does not establish phone behavior or general Play Protect clearance.
+The published **132,627,417-byte** APK has not been replaced; SHA-256:
+`a5f69401d3e72f7e9be81cb95304d1e69b156029ef07990c5f3013a2136a93de`.
+
+### Earlier successful update: 1.5.0
 
 On September 15, 2026, a fresh API-36 emulator received original **1.4.2**
 as its starting version. Ocean found public **1.5.0 / code 23**, displayed its
