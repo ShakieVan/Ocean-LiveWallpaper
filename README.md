@@ -33,6 +33,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.6.0:** finer fluorescent fish markings, nine individually rooted
+Acanthastrea variants, darker brain coral with subtle green edges, and four
+layouts that move all 231 regular reef colonies while preserving occupied
+fish shelters. [Release notes and native comparisons](releases/v1.6.0.md).
+
 **1.5.1:** the camera shortcut is now a Refresh button for immediate coral
 redistribution. Camera reset and sliders remain under **Settings > Camera**.
 [Release notes](releases/v1.5.1.md).
@@ -52,6 +57,11 @@ texture marks, and gentler shading in small recesses.
   retreat into their coral shelter when you tap nearby.
 - Colourful coral, swaying plants, drifting particles and moving underwater light.
 - Move, rotate and zoom the camera, then save your favourite perspective.
+- New in **1.6.0**: Refresh now moves the foreground reef, clams and optional
+  extra growth as well as distant corals. Nine Acanthastrea variants stand as
+  single polyps in each reef region. Fine fish markings are more visible, and
+  darker brain coral keeps its glow along narrow green borders.
+  [Release notes and native comparisons](releases/v1.6.0.md).
 - New in **1.5.1**: tap the Refresh icon beside **Set wallpaper** to choose a
   different prepared coral layout. Camera fine controls moved into Settings;
   gestures in the app preview still work. [Release notes](releases/v1.5.1.md).
@@ -122,7 +132,9 @@ They are not pre-rendered concept art or a phone performance benchmark.
 The homepage scene image and video predate the 1.1.0 appearance controls and
 1.2.0 reef additions. The installation guide includes newer coral portraits,
 camera controls and completed public updates through 1.5.0. The 1.4.2 release
-notes add a native fish before/after comparison. Existing media retain their
+notes add a native fish before/after comparison. The [1.6.0 gallery](releases/v1.6.0.md#native-android-captures)
+shows the current fluorescence and full coral redistribution in frozen emulator
+test frames. Existing media retain their
 original version labels and capture descriptions.
 The short preview is silent, so you can add your own licensed soundtrack.
 

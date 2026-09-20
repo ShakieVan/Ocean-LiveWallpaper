@@ -254,10 +254,14 @@ Android's system picker. The picker shows your edited view. Canceling keeps
 the active wallpaper's prior camera angle; returning to Ocean retains your
 unsaved draft for another attempt. Reset changes only the draft camera. The
 coral menu's **Redistribute corals** button picks another of four prepared,
-balanced layouts. Each coral form also has colonies on the outer left and
-right reef. The five giant clams stay where they were. These drag and pinch
-gestures belong to the app preview; the wallpaper
-retains its existing tap response and leaves the launcher's gestures in place.
+balanced layouts. Since **1.6.0**, all 231 regular reef colonies participate,
+including large foreground corals, all five clams and optional extra growth.
+Only occupied fish shelters remain fixed. All nine Acanthastrea colour variants
+stay represented in each reef region. Species and growth controls still decide
+which colonies are visible.
+
+Drag and pinch gestures belong to the app preview; the wallpaper retains its
+existing tap response and leaves the launcher's gestures in place.
 
 ## Coral Variety and Extra Growth
 

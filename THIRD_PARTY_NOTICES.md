@@ -27,7 +27,15 @@ territorial restrictions addressing generated outputs. Those restrictions
 remain unresolved for this distribution; no additional rights or clearance
 are implied by publication. The app is not affiliated with or endorsed by Tencent.
 
-AI references and the launcher icon were generated for the project. No assets,
+The nine-variant Acanthastrea texture was newly generated with Codex's built-in
+image tool, informed by four user-provided photographs. These photographs are
+references, not directly packaged texture maps. The fourth reference bears
+© Happy Reef; no separate free photo licence was supplied, and generation does
+not transfer rights to those references. The polyp geometry and fluorescence
+patterns are project-authored. No CC0 or other third-party free licence is
+asserted for the generated texture.
+
+Earlier AI references and the launcher icon were generated for the project. No assets,
 code or video frames from Maxelus Ocean Aquarium are included. Offline model
 weights and generation software are not bundled in the Android application.
 
