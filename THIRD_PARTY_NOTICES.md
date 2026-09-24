@@ -35,6 +35,10 @@ not transfer rights to those references. The polyp geometry and fluorescence
 patterns are project-authored. No CC0 or other third-party free licence is
 asserted for the generated texture.
 
+Version 1.7.0 adds project-authored scalar light fields derived from the existing
+fish pigments and geometry. Generated concepts served as visual guidance only;
+the original colour textures and their existing restrictions remain unchanged.
+
 Earlier AI references and the launcher icon were generated for the project. No assets,
 code or video frames from Maxelus Ocean Aquarium are included. Offline model
 weights and generation software are not bundled in the Android application.
