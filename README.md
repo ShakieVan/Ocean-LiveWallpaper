@@ -33,6 +33,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.8.0:** optional moving water light brings broader, wandering reflections;
+distance-softened shadows become wider and fainter farther from their caster.
+Enable either switch in **Settings**; both start off. No ray tracing.
+[Release notes](releases/v1.8.0.md).
+
 **1.7.1:** gentler fish fluorescence. For the new markings, 100% now matches
 the previous 6%; contours and soft fades stay the same. If you lowered your
 slider to 6%, return it to 100% after updating for the new normal fish strength.
