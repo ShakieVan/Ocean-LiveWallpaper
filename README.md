@@ -33,6 +33,10 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.9.0:** precomputed reef shadows, lighter per-frame work, compressed fish
+textures and a new expert dialog with optional energy settings. Phone battery
+savings have not been measured. [Release notes](releases/v1.9.0.md).
+
 **1.8.5:** more efficient soft-shadow preparation, filtering and projection,
 preserving shadow resolution and distance-based softness.
 [Release notes](releases/v1.8.5.md).

@@ -8,14 +8,16 @@ licenses and any separately granted rights remain in effect.
 
 | Component | License |
 | --- | --- |
-| [Filament and gltfio 1.75.1-ocean-shadow1](https://github.com/google/filament) | [Apache 2.0](licenses/filament.txt) |
+| [Filament and gltfio 1.75.1-ocean-shadow2](https://github.com/google/filament) | [Apache 2.0](licenses/filament.txt) |
 | [gdx-ai 1.8.2](https://github.com/libgdx/gdx-ai) | [Apache 2.0](licenses/gdx-ai.txt) |
 | [libGDX core 1.13.1](https://github.com/libgdx/libgdx) | [Apache 2.0](licenses/libgdx.txt) |
 | [AndroidX Core 1.18.0](https://android.googlesource.com/platform/frameworks/support/) | [Apache 2.0](licenses/androidx-core.txt) |
 
 The modified Filament build includes Google's shadow mip batching change
 `ba6f97b7ef1678b8e91103a655cf9ede34bef5cc`, plus Ocean's equivalent bilinear
-Gaussian shadow filter and precomputed affine cascade projection. Native
+Gaussian shadow filter, precomputed affine cascade projection, a material
+compiler hook for precomputed static scenery shadows and an ASTC LDR support
+check. Native
 libraries and materials were rebuilt; upstream copyright notices are retained.
 
 The water-surface normal calculation adapts `gerstner_wave_normal` from
