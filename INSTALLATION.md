@@ -34,7 +34,20 @@ turn off your browser's permission.
 
 ## Google Play Protect
 
-### Latest successful update: 1.7.0
+### Latest successful update: 1.7.1
+
+On September 25, 2026, the dedicated API-36 test emulator successfully updated
+from **1.7.0 to 1.7.1 / code 27** through Ocean's public updater and Android's
+system installer. The installed APK matched the public download exactly,
+the selected 30 FPS was retained, and temporary install permission was turned
+off afterward. No scan/block dialog appeared and the crash buffer was empty.
+This is not a phone test or general Play Protect clearance.
+
+APK size: **132,841,059 bytes**. SHA-256:
+`37b2e431c0299877459f708218ca3960bbb372e875dbd828d6e74b3dd8519e98`.
+[Release notes](releases/v1.7.1.md).
+
+### Earlier successful update: 1.7.0
 
 On September 24, 2026, a fresh API-36 emulator successfully updated from
 **1.6.0 to 1.7.0 / code 26** through Ocean's public updater and Android's
