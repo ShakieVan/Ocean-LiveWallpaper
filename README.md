@@ -33,6 +33,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.7.1:** gentler fish fluorescence. For the new markings, 100% now matches
+the previous 6%; contours and soft fades stay the same. If you lowered your
+slider to 6%, return it to 100% after updating for the new normal fish strength.
+[Release notes](releases/v1.7.1.md).
+
 **1.7.0:** fluorescent light follows the main fish colour boundaries with soft
 inward fades, yellow and turquoise centre-line accents, and cool white
 anemonefish stripes. The striped reef fish keeps its existing pattern.
