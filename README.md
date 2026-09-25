@@ -33,6 +33,10 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.8.4:** moving caustics on rocks and corals without the blue reflective rim
+around their bases. Fish keep their wave-shaped reflections.
+[Release notes](releases/v1.8.4.md).
+
 **1.8.3:** more efficient water-light calculations, display timing, texture
 transfers and fish route checks, preserving the existing appearance and settings.
 [Release notes](releases/v1.8.3.md).
