@@ -1,8 +1,20 @@
 # Ocean Media
 
 [Watch Ocean on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A).
-The channel owner uploaded the preview; the public README links to it through
-the scene screenshot. GitHub README pages do not embed YouTube iframe players.
+The channel owner uploaded the preview; the public README links to it below
+the current screenshot. GitHub README pages do not embed YouTube iframe players.
+
+## Ocean 1.9.0 — September 25, 2026
+
+[`ocean-1.9.0-portrait.png`](ocean-1.9.0-portrait.png) is a direct 1080 × 2400
+screenshot of the signed **Ocean 1.9.0 / version code 34** release running in
+an API-36 Android emulator. It shows the coral canyon, animated fish and the
+app's German preview controls after resuming the app during release checks.
+The PNG is unchanged: no cropping, recolouring, retouching or added captions.
+The main README only reduces its displayed width and links to the original.
+This is an actual app capture, not concept art or a phone performance result.
+
+## Original preview — September 13, 2026
 
 The original screenshots were captured directly from the Android app in an API-36 emulator
 on September 13, 2026. The scene screenshots are unchanged screen captures.

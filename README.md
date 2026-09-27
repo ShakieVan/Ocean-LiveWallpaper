@@ -7,10 +7,16 @@
 Tropical fish, sunlit water and a coral canyon that moves with your perspective.
 Ocean is a real-time 3D live wallpaper, not a looping video.
 
-[![Watch Ocean on YouTube: the actual Android live wallpaper](media/ocean-landscape.png)](https://www.youtube.com/shorts/x7QC6oZ9l2A)
+<p align="center">
+  <a href="media/ocean-1.9.0-portrait.png">
+    <img src="media/ocean-1.9.0-portrait.png" width="360" alt="Ocean 1.9.0: clownfish, blue tangs and colourful coral framing a sunlit underwater canyon" />
+  </a>
+  <br />
+  <em>Ocean 1.9.0 · Actual Android app · Captured in an emulator on September 25, 2026</em>
+</p>
 
-**[Watch on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A)**
-| [Portrait screenshot](media/ocean-portrait.png)
+**[Watch the earlier preview on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A)**
+| [Full-resolution screenshot](media/ocean-1.9.0-portrait.png)
 | [Download the preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
@@ -168,11 +174,17 @@ separately. You do not need a GitHub account or access token to check for update
 
 The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
-The homepage scene image and video predate the 1.1.0 appearance controls and
-1.2.0 reef additions. The installation guide includes newer coral portraits,
-camera controls and completed public updates through 1.6.0. The 1.4.2 release
+The screenshot at the top shows the signed **Ocean 1.9.0** release, captured
+on September 25, 2026. It is an unchanged 1080 × 2400 screenshot; only its
+display size is reduced here. Click it to see the full-resolution image.
+
+The earlier [landscape screenshot](media/ocean-landscape.png),
+[portrait screenshot](media/ocean-portrait.png) and video predate the 1.1.0
+appearance controls and 1.2.0 reef additions. The installation guide includes
+newer coral portraits, camera controls and completed public updates through
+1.6.0. The 1.4.2 release
 notes add a native fish before/after comparison. The [1.6.0 gallery](releases/v1.6.0.md#native-android-captures)
-shows the current fluorescence and full coral redistribution in frozen emulator
+shows that version's fluorescence and full coral redistribution in frozen emulator
 test frames. Existing media retain their
 original version labels and capture descriptions.
 The short preview is silent, so you can add your own licensed soundtrack.
