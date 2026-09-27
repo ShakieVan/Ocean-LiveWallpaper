@@ -4,12 +4,14 @@
 The channel owner uploaded the preview; the public README links to it below
 the current screenshot. GitHub README pages do not embed YouTube iframe players.
 
-## Ocean 1.9.0 — September 25, 2026
+## Ocean 1.9.0 — September 27, 2026
 
 [`ocean-1.9.0-portrait.png`](ocean-1.9.0-portrait.png) is a direct 1080 × 2400
 screenshot of the signed **Ocean 1.9.0 / version code 34** release running in
-an API-36 Android emulator. It shows the coral canyon, animated fish and the
-app's German preview controls after resuming the app during release checks.
+an API-36 Android emulator. Captured directly from the running app on September
+27, 2026, it shows the coral canyon, swimming fish and the German preview controls.
+Moving water light and distance-softened shadows are enabled, with caustic
+speed at 40%, Balanced shadow quality, 16 fish and 75% extra growth.
 The PNG is unchanged: no cropping, recolouring, retouching or added captions.
 The main README only reduces its displayed width and links to the original.
 This is an actual app capture, not concept art or a phone performance result.

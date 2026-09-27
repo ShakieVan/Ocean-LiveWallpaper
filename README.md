@@ -9,10 +9,10 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 
 <p align="center">
   <a href="media/ocean-1.9.0-portrait.png">
-    <img src="media/ocean-1.9.0-portrait.png" width="360" alt="Ocean 1.9.0: clownfish, blue tangs and colourful coral framing a sunlit underwater canyon" />
+    <img src="media/ocean-1.9.0-portrait.png" width="360" alt="Ocean 1.9.0: tropical fish in a colourful coral canyon with moving water light and distance-softened shadows enabled" />
   </a>
   <br />
-  <em>Ocean 1.9.0 · Actual Android app · Captured in an emulator on September 25, 2026</em>
+  <em>Ocean 1.9.0 · Water light and soft shadows enabled · Emulator capture, September 27, 2026</em>
 </p>
 
 **[Watch the earlier preview on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A)**
@@ -175,8 +175,9 @@ separately. You do not need a GitHub account or access token to check for update
 The images and preview show the actual Android app running in an emulator.
 They are not pre-rendered concept art or a phone performance benchmark.
 The screenshot at the top shows the signed **Ocean 1.9.0** release, captured
-on September 25, 2026. It is an unchanged 1080 × 2400 screenshot; only its
-display size is reduced here. Click it to see the full-resolution image.
+on September 27, 2026, with **moving water light** and **distance-softened
+shadows** enabled. It is an unchanged 1080 × 2400 screenshot; only its display
+size is reduced here. Click it to see the full-resolution image.
 
 The earlier [landscape screenshot](media/ocean-landscape.png),
 [portrait screenshot](media/ocean-portrait.png) and video predate the 1.1.0
