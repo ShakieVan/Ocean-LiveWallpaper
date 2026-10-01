@@ -20,8 +20,8 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 | [Download the preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
-> **Latest installation result:** On September 25, 2026, a dedicated API-36 Android
-> emulator successfully updated from **1.8.5 to 1.9.0** through Ocean's public
+> **Latest installation result:** On October 1, 2026, an API-36 Android
+> emulator successfully updated from **1.9.0 to 1.9.1** through Ocean's public
 > updater and Android's system installer. Download and integrity checks passed;
 > no scan or block dialog appeared, and no Play Protect override or global
 > protection change was used.
