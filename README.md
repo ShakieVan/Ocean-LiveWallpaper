@@ -39,6 +39,13 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.10.2:** creamy-white bulbous-tip (*Entacmaea*) anemones with rounded dome
+tips (`Knöllchen` / eye-stalk silhouette) and no bluish specular sheen, doubled
+clownfish count as female/male pairs (`0.66×` and `0.56×`), unobstructed
+anemone cuddling right through the tentacle crowns with simultaneous 4-fish
+full-stalk tentacle deflection, and periodic foreground camera passes. Phone
+battery savings have not been measured. [Release notes](releases/v1.10.2.md).
+
 **1.10.1:** multi-stem *Pocillopora* nursery coral with a broad fused base,
 verrucae micro-relief and wet mucus sheen, double-sized resident *Chromis*
 damselfish schools, both left and right 10-crown anemone colonies on flat
