@@ -39,6 +39,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.10.4:** exact flat-plateau height clearance over both anemone rock
+foundations so clownfish cuddle through the tentacle crowns without ever
+clipping into the rock beneath, plus 3D fish-to-fish steering avoidance and
+pairwise non-penetration so fish never swim through other fish. Phone battery
+savings have not been measured. [Release notes](releases/v1.10.4.md).
+
 **1.10.3:** natural soft rose and warm beige anemone colouration instead of the
 overly bright snow-white tone in 1.10.2, plus an exact continuous `rock 2`
 cliff collider so non-shelter fish such as the blue Regal Tang no longer get
