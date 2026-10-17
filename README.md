@@ -39,6 +39,14 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.10.1:** multi-stem *Pocillopora* nursery coral with a broad fused base,
+verrucae micro-relief and wet mucus sheen, double-sized resident *Chromis*
+damselfish schools, both left and right 10-crown anemone colonies on flat
+2-slab reef rock foundations, proportional clownfish sizing, natural anemone
+sheltering across both colonies, and smooth interactive tentacle deflection when
+anemonefish swim through the tentacles. Phone battery savings have not been
+measured. [Release notes](releases/v1.10.1.md).
+
 **1.10.0:** natural **Actio = Reactio** fish biomechanics and smooth gliding
 (fin-first propulsion and steering, center-of-mass spine pivoting without inward
 curve drift, active asymmetric turn strokes, synchronous 3D labriform
