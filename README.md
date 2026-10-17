@@ -39,6 +39,18 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.10.0:** natural **Actio = Reactio** fish biomechanics and smooth gliding
+(fin-first propulsion and steering, center-of-mass spine pivoting without inward
+curve drift, active asymmetric turn strokes, synchronous 3D labriform
+pectoral-fin rowing, and a passive hydrodynamic dorsal pennant on the Pennant
+Coralfish), traveling-wave fin flex with orbital reef swell and coral wake
+eddies, visible sunlit marine snow particles, two new sliders (*Current & fluid
+mechanics* and *Drifting particles*), backlit fin/tentacle translucency and wet
+eye highlights with fluorescence unchanged, S24 Ultra battery meter support for
+newer firmware, and lighter dynamic-shadow, water-light and per-fish GPU/CPU
+work. Phone battery savings have not been measured.
+[Release notes](releases/v1.10.0.md).
+
 **1.9.1:** less work per frame for the same picture: shared surface-detail
 calculations, no discarded shader work, fewer engine calls per fish and shorter
 collision checks. Phone battery savings have not been measured.
