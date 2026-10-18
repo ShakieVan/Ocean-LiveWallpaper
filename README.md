@@ -39,6 +39,15 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.10.5:** moves the right anemone colony forward into the sunlit foreground
+sand beside the foreground shelter coral, adds **Anemone** to the **Corals &
+Clams** submenu with an updated 3-stem *Pocillopora* **Shelter Coral** preview,
+adds a toggle for shelter-coral fish shadows (off by default), and reduces GPU
+and CPU load via 50% lighter single-sided anemone geometry, disabled anemone
+shadow casting, a streamlined 2-band water-light caustic evaluation, and
+zero-allocation fish collision checks. Phone battery savings have not been
+measured. [Release notes](releases/v1.10.5.md).
+
 **1.10.4:** exact flat-plateau height clearance over both anemone rock
 foundations so clownfish cuddle through the tentacle crowns without ever
 clipping into the rock beneath, plus 3D fish-to-fish steering avoidance and
