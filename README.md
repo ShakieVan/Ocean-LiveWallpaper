@@ -39,6 +39,16 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.10.6:** shifts the right anemone colony half a colony width to the left for
+better framing (`[3.30, -3.96, 2.50]`), expands horizontal camera rotation by
+$\pm 30^\circ$ to $\pm 55^\circ$, and reduces GPU/CPU and shader load by using
+hardware `DEPTH16` `PCF` for dynamic moving-fish cascades when precomputed soft
+EVSSM reef shadows are active (saving 21 per-frame RGBA16F Gaussian mipmap
+passes and duplicate per-pixel EVSSM work), pruning secondary triplanar and
+unused fish `textureLod` lookups, halving background material variant
+compilation, and using hardware bilinear dynamic-resolution scaling. Phone
+battery savings have not been measured. [Release notes](releases/v1.10.6.md).
+
 **1.10.5:** moves the right anemone colony forward into the sunlit foreground
 sand beside the foreground shelter coral, adds **Anemone** to the **Corals &
 Clams** submenu with an updated 3-stem *Pocillopora* **Shelter Coral** preview,
