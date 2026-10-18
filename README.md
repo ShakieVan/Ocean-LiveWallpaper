@@ -39,51 +39,18 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**1.10.6:** shifts the right anemone colony half a colony width to the left for
-better framing (`[3.30, -3.96, 2.50]`), expands horizontal camera rotation by
-$\pm 30^\circ$ to $\pm 55^\circ$, and reduces GPU/CPU and shader load by using
-hardware `DEPTH16` `PCF` for dynamic moving-fish cascades when precomputed soft
-EVSSM reef shadows are active (saving 21 per-frame RGBA16F Gaussian mipmap
-passes and duplicate per-pixel EVSSM work), pruning secondary triplanar and
-unused fish `textureLod` lookups, halving background material variant
-compilation, and using hardware bilinear dynamic-resolution scaling. Phone
-battery savings have not been measured. [Release notes](releases/v1.10.6.md).
-
-**1.10.5:** moves the right anemone colony forward into the sunlit foreground
-sand beside the foreground shelter coral, adds **Anemone** to the **Corals &
-Clams** submenu with an updated 3-stem *Pocillopora* **Shelter Coral** preview,
-adds a toggle for shelter-coral fish shadows (off by default), and reduces GPU
-and CPU load via 50% lighter single-sided anemone geometry, disabled anemone
-shadow casting, a streamlined 2-band water-light caustic evaluation, and
-zero-allocation fish collision checks. Phone battery savings have not been
-measured. [Release notes](releases/v1.10.5.md).
-
-**1.10.4:** exact flat-plateau height clearance over both anemone rock
-foundations so clownfish cuddle through the tentacle crowns without ever
-clipping into the rock beneath, plus 3D fish-to-fish steering avoidance and
-pairwise non-penetration so fish never swim through other fish. Phone battery
-savings have not been measured. [Release notes](releases/v1.10.4.md).
-
-**1.10.3:** natural soft rose and warm beige anemone colouration instead of the
-overly bright snow-white tone in 1.10.2, plus an exact continuous `rock 2`
-cliff collider so non-shelter fish such as the blue Regal Tang no longer get
-stuck or clip into the rock beside the right anemone. Phone battery savings
-have not been measured. [Release notes](releases/v1.10.3.md).
-
-**1.10.2:** creamy-white bulbous-tip (*Entacmaea*) anemones with rounded dome
-tips (`Knöllchen` / eye-stalk silhouette) and no bluish specular sheen, doubled
-clownfish count as female/male pairs (`0.66×` and `0.56×`), unobstructed
-anemone cuddling right through the tentacle crowns with simultaneous 4-fish
-full-stalk tentacle deflection, and periodic foreground camera passes. Phone
-battery savings have not been measured. [Release notes](releases/v1.10.2.md).
-
-**1.10.1:** multi-stem *Pocillopora* nursery coral with a broad fused base,
-verrucae micro-relief and wet mucus sheen, double-sized resident *Chromis*
-damselfish schools, both left and right 10-crown anemone colonies on flat
-2-slab reef rock foundations, proportional clownfish sizing, natural anemone
-sheltering across both colonies, and smooth interactive tentacle deflection when
-anemonefish swim through the tentacles. Phone battery savings have not been
-measured. [Release notes](releases/v1.10.1.md).
+**1.11.0:** bulbous-tip (*Entacmaea*) sea anemone colonies in soft rose and warm
+beige tones on flat 2-slab reef rock foundations (left and sunlit foreground
+right) with resident female/male clownfish pairs, interactive 4-fish tentacle
+deflection and a **Corals & Clams** toggle; a 3-stem *Pocillopora* shelter coral
+with double-sized resident *Chromis* damselfish schools and an optional
+shelter-fish shadow toggle; 3D fish-to-fish collision avoidance and exact
+right-cliff clearance; expanded $\pm 55^\circ$ horizontal camera rotation; and
+major shadow-pipeline, shader and GPU/CPU optimisations (hardware `DEPTH16`
+`PCF` for moving fish alongside precomputed soft EVSSM reef shadows, lighter
+triplanar/caustic/fish shaders and halved background variant compilation) that
+reduce measured battery use below 10%/h on a Galaxy S24 Ultra.
+[Release notes](releases/v1.11.0.md).
 
 **1.10.0:** natural **Actio = Reactio** fish biomechanics and smooth gliding
 (fin-first propulsion and steering, center-of-mass spine pivoting without inward
