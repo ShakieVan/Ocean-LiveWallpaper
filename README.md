@@ -39,6 +39,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.11.3:** responsive parallax depth tracking (~36 ms filter time constant on
+*fast* instead of 200 ms, plus 60% higher angular sensitivity for natural ~18°
+wrist tilts) and automatic sensor-rate fallback when switching tilt response
+modes. [Release notes](releases/v1.11.3.md).
+
 **1.11.2:** restores natural lower- and mid-reef swimming depth for large fish
 (Butterflyfish, Regal Tang and Pennant Coralfish) with horizontal tangential
 obstacle steering and targeted shelter-coral goal redirection, so large fish no
