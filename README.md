@@ -39,6 +39,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.11.1:** size-aware collision avoidance and isotropic spherical colliders around
+the shelter corals so large fish (Butterflyfish, Regal Tang and Pennant Coralfish)
+arc smoothly over the branches instead of getting stuck or bouncing.
+[Release notes](releases/v1.11.1.md).
+
 **1.11.0:** bulbous-tip (*Entacmaea*) sea anemone colonies in soft rose and warm
 beige tones on flat 2-slab reef rock foundations (left and sunlit foreground
 right) with resident female/male clownfish pairs, interactive 4-fish tentacle
