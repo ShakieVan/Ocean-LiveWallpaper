@@ -39,6 +39,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.11.2:** restores natural lower- and mid-reef swimming depth for large fish
+(Butterflyfish, Regal Tang and Pennant Coralfish) with horizontal tangential
+obstacle steering and targeted shelter-coral goal redirection, so large fish no
+longer drift toward the top edge of the screen while keeping zero shelter-coral
+hang-ups. [Release notes](releases/v1.11.2.md).
+
 **1.11.1:** size-aware collision avoidance and isotropic spherical colliders around
 the shelter corals so large fish (Butterflyfish, Regal Tang and Pennant Coralfish)
 arc smoothly over the branches instead of getting stuck or bouncing.
