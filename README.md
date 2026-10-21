@@ -39,6 +39,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.11.7:** adds an **Invert tilt direction** (*Neigungsrichtung umkehren*)
+switch below the gyroscope settings to reverse horizontal and vertical parallax
+camera movement while keeping your chosen tilt strength, tilt limits (`100%–500%`)
+and pivot distance. [Release notes](releases/v1.11.7.md).
+
 **1.11.6:** adds an adjustable **Tilt limits** (*Neigungsgrenzen*) slider
 (`100%–500%`, up to 5× the previous gyroscope limit) with gimbal-free vertical
 angle extraction, keeping the same calm sensitivity at small wrist angles while
