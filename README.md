@@ -39,6 +39,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.11.4:** sharper coral pores, reef rock relief and fish scale detail at
+default settings (phase-locked triplanar pore and micro-normal coordinates,
+fixed UV-derivative normal fade on rocks, stronger crevice occlusion and 4×
+anisotropic filtering on fish samplers) with zero extra texture memory or sample
+cost and full **Rock colour** slider support. [Release notes](releases/v1.11.4.md).
+
 **1.11.3:** responsive parallax depth tracking (~36 ms filter time constant on
 *fast* instead of 200 ms, plus 60% higher angular sensitivity for natural ~18°
 wrist tilts) and automatic sensor-rate fallback when switching tilt response
