@@ -39,6 +39,14 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.11.5:** makes coral pores, rock crevices, foreground shelter corals and
+fish scales clearly visible at normal portrait viewing distance by fixing the
+world-footprint fade and mip-gradient scaling, coupling **Texture sharpness**
+and **Detail contours** directly to triplanar reef pores and baked crevice AO,
+and restoring relief on foreground *Pocillopora* shelter corals—with zero extra
+texture cost and full **Rock colour** slider support.
+[Release notes](releases/v1.11.5.md).
+
 **1.11.4:** sharper coral pores, reef rock relief and fish scale detail at
 default settings (phase-locked triplanar pore and micro-normal coordinates,
 fixed UV-derivative normal fade on rocks, stronger crevice occlusion and 4×
