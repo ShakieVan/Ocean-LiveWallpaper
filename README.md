@@ -39,46 +39,17 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**1.11.7:** adds an **Invert tilt direction** (*Neigungsrichtung umkehren*)
-switch below the gyroscope settings to reverse horizontal and vertical parallax
-camera movement while keeping your chosen tilt strength, tilt limits (`100%–500%`)
-and pivot distance. [Release notes](releases/v1.11.7.md).
-
-**1.11.6:** adds an adjustable **Tilt limits** (*Neigungsgrenzen*) slider
-(`100%–500%`, up to 5× the previous gyroscope limit) with gimbal-free vertical
-angle extraction, keeping the same calm sensitivity at small wrist angles while
-letting the camera orbit up to five times further as you continue tilting the
-device. [Release notes](releases/v1.11.6.md).
-
-**1.11.5:** makes coral pores, rock crevices, foreground shelter corals and
-fish scales clearly visible at normal portrait viewing distance by fixing the
-world-footprint fade and mip-gradient scaling, coupling **Texture sharpness**
-and **Detail contours** directly to triplanar reef pores and baked crevice AO,
-and restoring relief on foreground *Pocillopora* shelter corals—with zero extra
-texture cost and full **Rock colour** slider support.
-[Release notes](releases/v1.11.5.md).
-
-**1.11.4:** sharper coral pores, reef rock relief and fish scale detail at
-default settings (phase-locked triplanar pore and micro-normal coordinates,
-fixed UV-derivative normal fade on rocks, stronger crevice occlusion and 4×
-anisotropic filtering on fish samplers) with zero extra texture memory or sample
-cost and full **Rock colour** slider support. [Release notes](releases/v1.11.4.md).
-
-**1.11.3:** responsive parallax depth tracking (~36 ms filter time constant on
-*fast* instead of 200 ms, plus 60% higher angular sensitivity for natural ~18°
-wrist tilts) and automatic sensor-rate fallback when switching tilt response
-modes. [Release notes](releases/v1.11.3.md).
-
-**1.11.2:** restores natural lower- and mid-reef swimming depth for large fish
-(Butterflyfish, Regal Tang and Pennant Coralfish) with horizontal tangential
-obstacle steering and targeted shelter-coral goal redirection, so large fish no
-longer drift toward the top edge of the screen while keeping zero shelter-coral
-hang-ups. [Release notes](releases/v1.11.2.md).
-
-**1.11.1:** size-aware collision avoidance and isotropic spherical colliders around
-the shelter corals so large fish (Butterflyfish, Regal Tang and Pennant Coralfish)
-arc smoothly over the branches instead of getting stuck or bouncing.
-[Release notes](releases/v1.11.1.md).
+**1.12.0:** responsive gyroscope parallax (~36 ms filter time constant on *fast*
+and automatic sensor-rate fallback) with a new **Tilt limits** (*Neigungsgrenzen*)
+slider (`100%–500%`, up to 5× wider gyroscope range with gimbal-free vertical
+angle extraction) and an **Invert tilt direction** (*Neigungsrichtung umkehren*)
+switch; sharper normal-distance coral pores, rock relief, foreground *Pocillopora*
+shelter corals and 4× anisotropic fish scale detail with direct **Texture
+sharpness** / **Detail contours** coupling, zero extra GPU texture cost and full
+**Rock colour** slider support; plus isotropic spherical shelter-coral colliders
+and horizontal tangential routing that keep large fish (Butterflyfish, Regal Tang
+and Pennant Coralfish) swimming smoothly through the lower and middle reef canyon
+without shelter-coral hang-ups. [Release notes](releases/v1.12.0.md).
 
 **1.11.0:** bulbous-tip (*Entacmaea*) sea anemone colonies in soft rose and warm
 beige tones on flat 2-slab reef rock foundations (left and sunlit foreground
