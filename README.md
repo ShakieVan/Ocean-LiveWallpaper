@@ -39,6 +39,13 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.12.8 (Beta):** rotates the **X/Y tilt axes** (`alignedX`, `alignedY`) in
+`ParallaxCamera.update` by the active 3rd-axis Z-rotation angle (`roll`, reusing
+`cos(roll)` and `sin(roll)` from `updateUpVector` with zero extra trig calls),
+so pitching a landscape-held phone forward/backward (around the phone's Y-axis)
+always tilts the ocean camera vertically (up/down) instead of panning
+left/right. [Release notes](releases/v1.12.8.md).
+
 **1.12.7 (Beta):** executes a full X/Y tilt (`baseline`) and 3rd-axis
 spirit-level horizon (`horizonRoll`) **Reset** right at the end of the
 **2-second post-unlock delay** (`POST_UNLOCK_RESET_DECAY_RATE = 6.0f`,
