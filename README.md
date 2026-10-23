@@ -39,6 +39,14 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.12.7 (Beta):** executes a full X/Y tilt (`baseline`) and 3rd-axis
+spirit-level horizon (`horizonRoll`) **Reset** right at the end of the
+**2-second post-unlock delay** (`POST_UNLOCK_RESET_DECAY_RATE = 6.0f`,
+$\tau \approx 0.17\text{ s}$), synchronized across lock-screen / home-screen
+engine handoffs (`sharedUnlockPending`, `sharedUnlockStartNanos`) and with true
+1:1 spirit-level alignment without portrait deadzone suppression.
+[Release notes](releases/v1.12.7.md).
+
 **1.12.6 (Beta):** replaces the wake-up horizon suppression with a complete
 **3rd-axis rotation blockade** while the lock screen is active (`roll = 0 rad`),
 followed by a **2-second post-unlock delay** (`POST_UNLOCK_DELAY_NANOS`) that
