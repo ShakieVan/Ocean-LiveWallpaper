@@ -39,6 +39,14 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.12.10 (Beta):** docks the **Liquid-Glass settings wheel** at the vertical
+center of the right screen edge with an integrated central left-edge icon handle
+(~1 mm rim peek when collapsed; pull left or tap to open, tap outside to
+collapse), replaces the bottom bar with a **Liquid-Glass bottom-center wallpaper
+icon button**, and keeps **update downloads running in the background** across
+app switches with an immediate **Install update** offer in the menu once ready.
+[Release notes](releases/v1.12.10.md).
+
 **1.12.9 (Beta):** prevents horizon skew after simultaneous **X/Y tilting and
 Z-rotation** (`TiltController.advanceRoll`) by applying the `|dz|/tilt` gate
 strictly to the flat-posture gyroscope term `dz * weight * (1f - tiltBlend)` while
