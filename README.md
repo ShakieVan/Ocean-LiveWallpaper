@@ -39,6 +39,13 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.12.4 (Beta):** replaces the continuous Lorentzian roll attenuation with an
+unattenuated flat-top smoothstep gate (`[0.60, 0.95]` in `TiltController.advanceRoll`)
+combined with the holonomy-free gravity-meridian differential `dGrav`, so full
+**360° Z-rotations** track the full 360° (never stopping upside down at 180°)
+and **back-and-forth Z-rotations** stay free of drift while Y/X tilting remains
+100% drift-free. [Release notes](releases/v1.12.4.md).
+
 **1.12.3 (Beta):** eliminates leftward horizon drift when rocking a 45°-tilted
 phone back and forth around its Y-axis via allocation-free incremental column
 dot products (`decoupledRollStep`), adds a smooth $\pm 8^\circ$ portrait
