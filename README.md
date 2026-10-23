@@ -39,7 +39,7 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**1.12.0:** introduces a right-edge **Liquid-Glass register selection wheel**
+**1.13.0:** introduces a right-edge **Liquid-Glass register selection wheel**
 (*Auswahlrad*) docked at the vertical center with a central left-edge icon bulge
 (~1 mm rim peek when collapsed; pull left or tap to open, tap outside to
 collapse, with custom vector pictograms, folding register cards and horizontal
@@ -50,13 +50,21 @@ $360^\circ$ angle, drift-free 3D sensor math even during simultaneous tilting
 and rotation, 1:1 spirit-level horizon alignment with flat-screen exception,
 horizon-rotated X/Y tilt axes in landscape/upside-down postures, lock-screen
 rotation blockade with a 2-second post-unlock full X/Y/Z reset, and 5-second
-quiet re-alignment), **5× adjustable Tilt limits** (`100%–500%`), an **Invert
-tilt direction** switch, and responsive ~36 ms depth tracking; **background
-update downloads** across app switches with an immediate **Install update**
-offer; sharper normal-distance coral pores, rock relief, foreground *Pocillopora*
-shelter corals and `4×` anisotropic fish scales at zero extra GPU cost; and
-isotropic spherical shelter-coral colliders with natural lower/mid-reef fish
-routing. [Release notes](releases/v1.12.0.md).
+quiet re-alignment), plus restored original default tilt direction; and
+**background update downloads** across app switches with an immediate **Install
+update** offer in the menu once ready. [Release notes](releases/v1.13.0.md).
+
+**1.12.0:** responsive gyroscope parallax (~36 ms filter time constant on *fast*
+and automatic sensor-rate fallback) with a new **Tilt limits** (*Neigungsgrenzen*)
+slider (`100%–500%`, up to 5× wider gyroscope range with gimbal-free vertical
+angle extraction) and an **Invert tilt direction** (*Neigungsrichtung umkehren*)
+switch; sharper normal-distance coral pores, rock relief, foreground *Pocillopora*
+shelter corals and 4× anisotropic fish scale detail with direct **Texture
+sharpness** / **Detail contours** coupling, zero extra GPU texture cost and full
+**Rock colour** slider support; plus isotropic spherical shelter-coral colliders
+and horizontal tangential routing that keep large fish (Butterflyfish, Regal Tang
+and Pennant Coralfish) swimming smoothly through the lower and middle reef canyon
+without shelter-coral hang-ups. [Release notes](releases/v1.12.0.md).
 
 **1.11.0:** bulbous-tip (*Entacmaea*) sea anemone colonies in soft rose and warm
 beige tones on flat 2-slab reef rock foundations (left and sunlit foreground
