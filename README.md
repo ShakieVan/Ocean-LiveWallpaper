@@ -39,6 +39,14 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.12.3 (Beta):** eliminates leftward horizon drift when rocking a 45°-tilted
+phone back and forth around its Y-axis via allocation-free incremental column
+dot products (`decoupledRollStep`), adds a smooth $\pm 8^\circ$ portrait
+deadzone so casual hand inclination in the lap initializes the horizon
+straight, and gently re-aligns the baseline and horizon after **5 seconds of
+quiet holding** (`isQuiet` via two dot products, ignoring tremors within $5^\circ$
+and brief jolts under $250\text{ ms}$). [Release notes](releases/v1.12.3.md).
+
 **1.12.2 (Beta):** refines the 3rd gyroscope axis (**Rotate screen (3rd axis)**)
 so that **spirit-level** (*Wasserwaage*) vs. **flat-screen** horizon alignment
 takes place strictly at **initialization** (when the wallpaper resets/resumes),
