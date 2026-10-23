@@ -39,6 +39,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.12.5 (Beta):** disables automatic spirit-level horizon detection for **5
+seconds** right after the phone wakes up (`TiltController.notePhoneWakeUp`,
+`WAKE_HORIZON_DELAY_NANOS`), aligning the horizon initially with the phone
+screen (`0 rad`) before smoothly easing into spirit-level alignment after 5
+seconds. [Release notes](releases/v1.12.5.md).
+
 **1.12.4 (Beta):** replaces the continuous Lorentzian roll attenuation with an
 unattenuated flat-top smoothstep gate (`[0.60, 0.95]` in `TiltController.advanceRoll`)
 combined with the holonomy-free gravity-meridian differential `dGrav`, so full
