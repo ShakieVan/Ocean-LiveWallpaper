@@ -39,95 +39,24 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**1.12.10 (Beta):** docks the **Liquid-Glass settings wheel** at the vertical
-center of the right screen edge with an integrated central left-edge icon handle
+**1.12.0:** introduces a right-edge **Liquid-Glass register selection wheel**
+(*Auswahlrad*) docked at the vertical center with a central left-edge icon bulge
 (~1 mm rim peek when collapsed; pull left or tap to open, tap outside to
-collapse), replaces the bottom bar with a **Liquid-Glass bottom-center wallpaper
-icon button**, and keeps **update downloads running in the background** across
-app switches with an immediate **Install update** offer in the menu once ready.
-[Release notes](releases/v1.12.10.md).
-
-**1.12.9 (Beta):** prevents horizon skew after simultaneous **X/Y tilting and
-Z-rotation** (`TiltController.advanceRoll`) by applying the `|dz|/tilt` gate
-strictly to the flat-posture gyroscope term `dz * weight * (1f - tiltBlend)` while
-keeping the gravity-meridian differential `dGrav * tiltBlend` un-gated in
-non-flat postures. [Release notes](releases/v1.12.9.md).
-
-**1.12.8 (Beta):** rotates the **X/Y tilt axes** (`alignedX`, `alignedY`) in
-`ParallaxCamera.update` by the active 3rd-axis Z-rotation angle (`roll`, reusing
-`cos(roll)` and `sin(roll)` from `updateUpVector` with zero extra trig calls),
-so pitching a landscape-held phone forward/backward (around the phone's Y-axis)
-always tilts the ocean camera vertically (up/down) instead of panning
-left/right. [Release notes](releases/v1.12.8.md).
-
-**1.12.7 (Beta):** executes a full X/Y tilt (`baseline`) and 3rd-axis
-spirit-level horizon (`horizonRoll`) **Reset** right at the end of the
-**2-second post-unlock delay** (`POST_UNLOCK_RESET_DECAY_RATE = 6.0f`,
-$\tau \approx 0.17\text{ s}$), synchronized across lock-screen / home-screen
-engine handoffs (`sharedUnlockPending`, `sharedUnlockStartNanos`) and with true
-1:1 spirit-level alignment without portrait deadzone suppression.
-[Release notes](releases/v1.12.7.md).
-
-**1.12.6 (Beta):** replaces the wake-up horizon suppression with a complete
-**3rd-axis rotation blockade** while the lock screen is active (`roll = 0 rad`),
-followed by a **2-second post-unlock delay** (`POST_UNLOCK_DELAY_NANOS`) that
-must elapse after unlocking (`Intent.ACTION_USER_PRESENT` /
-`KeyguardManager.isKeyguardLocked`) before releasing the blockade and smoothly
-easing into spirit-level alignment. [Release notes](releases/v1.12.6.md).
-
-**1.12.5 (Beta):** disables automatic spirit-level horizon detection for **5
-seconds** right after the phone wakes up (`TiltController.notePhoneWakeUp`,
-`WAKE_HORIZON_DELAY_NANOS`), aligning the horizon initially with the phone
-screen (`0 rad`) before smoothly easing into spirit-level alignment after 5
-seconds. [Release notes](releases/v1.12.5.md).
-
-**1.12.4 (Beta):** replaces the continuous Lorentzian roll attenuation with an
-unattenuated flat-top smoothstep gate (`[0.60, 0.95]` in `TiltController.advanceRoll`)
-combined with the holonomy-free gravity-meridian differential `dGrav`, so full
-**360° Z-rotations** track the full 360° (never stopping upside down at 180°)
-and **back-and-forth Z-rotations** stay free of drift while Y/X tilting remains
-100% drift-free. [Release notes](releases/v1.12.4.md).
-
-**1.12.3 (Beta):** eliminates leftward horizon drift when rocking a 45°-tilted
-phone back and forth around its Y-axis via allocation-free incremental column
-dot products (`decoupledRollStep`), adds a smooth $\pm 8^\circ$ portrait
-deadzone so casual hand inclination in the lap initializes the horizon
-straight, and gently re-aligns the baseline and horizon after **5 seconds of
-quiet holding** (`isQuiet` via two dot products, ignoring tremors within $5^\circ$
-and brief jolts under $250\text{ ms}$). [Release notes](releases/v1.12.3.md).
-
-**1.12.2 (Beta):** refines the 3rd gyroscope axis (**Rotate screen (3rd axis)**)
-so that **spirit-level** (*Wasserwaage*) vs. **flat-screen** horizon alignment
-takes place strictly at **initialization** (when the wallpaper resets/resumes),
-after which the 3D gyroscope (`deflectionRoll(relative)`) takes over 1:1 in all
-postures: rotating a flat-initialized phone now rotates the horizon 1:1,
-tilting a flat-initialized phone keeps the horizon steady, and tilting an
-upright phone around its longitudinal axis (*Längsachse*) has zero coupling
-into horizon rotation. [Release notes](releases/v1.12.2.md).
-
-**1.12.1 (Beta):** adds the 3rd gyroscope axis (**Rotate screen (3rd axis)**,
-initial off) with true 1:1 rotation angle, a separate **Invert rotation
-direction** switch, automatic **spirit-level horizon alignment** (*Wasserwaage*)
-on wallpaper resume and **flat-device screen alignment** when the phone lies
-nearly flat; restores the original default tilt direction; consolidates all
-tilt controls (including **Tilt response**) into a dedicated **Tilt &
-Gyroscope** submenu; and introduces a right-edge **Liquid-Glass register
-selection wheel** (*Auswahlrad*) with custom vector pictograms, a fixed central
-selection zone, folding register cards and horizontal submenu/swipe transitions
-so the live 3D reef stays visible while adjusting settings.
-[Release notes](releases/v1.12.1.md).
-
-**1.12.0:** responsive gyroscope parallax (~36 ms filter time constant on *fast*
-and automatic sensor-rate fallback) with a new **Tilt limits** (*Neigungsgrenzen*)
-slider (`100%–500%`, up to 5× wider gyroscope range with gimbal-free vertical
-angle extraction) and an **Invert tilt direction** (*Neigungsrichtung umkehren*)
-switch; sharper normal-distance coral pores, rock relief, foreground *Pocillopora*
-shelter corals and 4× anisotropic fish scale detail with direct **Texture
-sharpness** / **Detail contours** coupling, zero extra GPU texture cost and full
-**Rock colour** slider support; plus isotropic spherical shelter-coral colliders
-and horizontal tangential routing that keep large fish (Butterflyfish, Regal Tang
-and Pennant Coralfish) swimming smoothly through the lower and middle reef canyon
-without shelter-coral hang-ups. [Release notes](releases/v1.12.0.md).
+collapse, with custom vector pictograms, folding register cards and horizontal
+submenu transitions) and a **Liquid-Glass bottom-center "Set wallpaper" icon
+button**; a dedicated **Tilt & Gyroscope** submenu with the **3rd gyroscope axis
+("Rotate screen")** and separate **Invert rotation direction** switch (true 1:1
+$360^\circ$ angle, drift-free 3D sensor math even during simultaneous tilting
+and rotation, 1:1 spirit-level horizon alignment with flat-screen exception,
+horizon-rotated X/Y tilt axes in landscape/upside-down postures, lock-screen
+rotation blockade with a 2-second post-unlock full X/Y/Z reset, and 5-second
+quiet re-alignment), **5× adjustable Tilt limits** (`100%–500%`), an **Invert
+tilt direction** switch, and responsive ~36 ms depth tracking; **background
+update downloads** across app switches with an immediate **Install update**
+offer; sharper normal-distance coral pores, rock relief, foreground *Pocillopora*
+shelter corals and `4×` anisotropic fish scales at zero extra GPU cost; and
+isotropic spherical shelter-coral colliders with natural lower/mid-reef fish
+routing. [Release notes](releases/v1.12.0.md).
 
 **1.11.0:** bulbous-tip (*Entacmaea*) sea anemone colonies in soft rose and warm
 beige tones on flat 2-slab reef rock foundations (left and sunlit foreground
