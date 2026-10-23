@@ -39,6 +39,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.12.9 (Beta):** prevents horizon skew after simultaneous **X/Y tilting and
+Z-rotation** (`TiltController.advanceRoll`) by applying the `|dz|/tilt` gate
+strictly to the flat-posture gyroscope term `dz * weight * (1f - tiltBlend)` while
+keeping the gravity-meridian differential `dGrav * tiltBlend` un-gated in
+non-flat postures. [Release notes](releases/v1.12.9.md).
+
 **1.12.8 (Beta):** rotates the **X/Y tilt axes** (`alignedX`, `alignedY`) in
 `ParallaxCamera.update` by the active 3rd-axis Z-rotation angle (`roll`, reusing
 `cos(roll)` and `sin(roll)` from `updateUpVector` with zero extra trig calls),
