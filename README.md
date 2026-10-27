@@ -39,6 +39,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.14.1 (Beta):** steering roll stays 1:1 regardless of the tilt effect,
+parallax uses the same 1:1 percentage as the on-site camera, and the pivot
+distance gains a level 0 (in the camera) and now applies to the on-site camera
+too. [Release notes](releases/v1.14.1.md).
+
 **1.14.0 (Beta):** new **Camera mode** under **Tilt & Gyroscope**: the
 **On-site camera** repeats every phone rotation 1:1 as if you held a camera in
 the reef, relative to the posture at the last alignment; **Parallax** uses the
