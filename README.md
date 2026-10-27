@@ -39,6 +39,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.13.1 (Beta):** adds a dedicated **Spirit-level alignment**
+(*Wasserwaagen-Ausrichtung*) switch under **Tilt & Gyroscope** so automatic
+spirit-level gravity alignment can be turned off to always align the horizon
+with the display (`0 rad`) at start, after unlock, and after 5 seconds of quiet
+holding. [Release notes](releases/v1.13.1.md).
+
 **1.13.0:** introduces a right-edge **Liquid-Glass register selection wheel**
 (*Auswahlrad*) docked at the vertical center with a central left-edge icon bulge
 (~1 mm rim peek when collapsed; pull left or tap to open, tap outside to
