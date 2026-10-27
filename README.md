@@ -39,6 +39,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.13.3 (Beta):** decouples X-axis pitch posture changes (laying the phone down
+from an upright calibration or standing it up from a horizontal calibration)
+from 3rd-axis roll extraction so Y-axis rotation keeps the reef horizon level
+regardless of initial posture. [Release notes](releases/v1.13.3.md).
+
 **1.13.2 (Beta):** fixes reef horizon tilting when rotating around the vertical
 Y-axis past $\sim 45^\circ$ while holding the phone upright or quasi-upright,
 keeping the horizon level across the full $\pm 180^\circ$ look-around range
