@@ -39,6 +39,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.13.2 (Beta):** fixes reef horizon tilting when rotating around the vertical
+Y-axis past $\sim 45^\circ$ while holding the phone upright or quasi-upright,
+keeping the horizon level across the full $\pm 180^\circ$ look-around range
+while preserving 1:1 3rd-axis screen rotation.
+[Release notes](releases/v1.13.2.md).
+
 **1.13.1 (Beta):** adds a dedicated **Spirit-level alignment**
 (*Wasserwaagen-Ausrichtung*) switch under **Tilt & Gyroscope** so automatic
 spirit-level gravity alignment can be turned off to always align the horizon
