@@ -39,6 +39,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.15.1 (Beta):** lively waves now travel as directional, overlapping wave trains
+with much sharper crests. [Release notes](releases/v1.15.1.md).
+
 **1.15.0 (Beta):** choose **Classic** or **Lively** water-surface waves (5–20
 overlapping waves after afl_ext, MIT) under **Light & Water**; the reef light
 patterns stay unchanged. [Release notes](releases/v1.15.0.md).

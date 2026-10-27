@@ -29,3 +29,6 @@ analytically in the same loop instead of three height samples; no raymarching,
 sky, atmosphere or tonemapping of the original is included. Up to 20 octaves
 with precomputed directions, per-octave speeds rounded for a seamless time wrap,
 footprint-based fading of sub-pixel octaves and a project-specific slope scale.
+Directions are concentrated around one travel direction with two crossing
+swells, speeds follow deep-water dispersion, fixed phases replace the radial
+phase shift, crests are sharpened (exp(3*(sin-1))) and the drag is reduced.
