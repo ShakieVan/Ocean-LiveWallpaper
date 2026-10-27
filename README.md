@@ -39,6 +39,10 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.15.0 (Beta):** choose **Classic** or **Lively** water-surface waves (5–20
+overlapping waves after afl_ext, MIT) under **Light & Water**; the reef light
+patterns stay unchanged. [Release notes](releases/v1.15.0.md).
+
 **1.14.1 (Beta):** steering roll stays 1:1 regardless of the tilt effect,
 parallax uses the same 1:1 percentage as the on-site camera, and the pivot
 distance gains a level 0 (in the camera) and now applies to the on-site camera

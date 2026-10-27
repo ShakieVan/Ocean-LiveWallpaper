@@ -23,6 +23,9 @@ libraries and materials were rebuilt; upstream copyright notices are retained.
 The water-surface normal calculation adapts `gerstner_wave_normal` from
 [osgw](https://github.com/CaffeineViking/osgw/blob/1d82fbeaabc1c04e8bed88b4dd27e0c690065dc8/share/shaders/gerstner.glsl),
 copyright 2018 Erik Sven Vasconcelos Jansson, under the [MIT License](licenses/osgw.txt).
+The optional "lively" water-surface waves adapt the wave octave sum of
+["Very fast procedural ocean"](https://www.shadertoy.com/view/MdXyzX),
+copyright 2017-2024 afl_ext, under the [MIT License](licenses/afl-ext-ocean.txt).
 
 ## Generated Scene Assets
 
