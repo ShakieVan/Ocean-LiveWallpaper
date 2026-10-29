@@ -39,6 +39,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.17.2 (Beta):** a calm picture when switching the phone on while it is still moving.
+[Release notes](releases/v1.17.2.md).
+
 **1.17.1 (Beta):** the reef ring now stands on solid ground: rocks embedded in the sand,
 stacks narrowing upward, no overhangs. [Release notes](releases/v1.17.1.md).
 
