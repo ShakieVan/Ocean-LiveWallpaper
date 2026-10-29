@@ -39,6 +39,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.18.2 (Beta):** the sun rays fade out smoothly toward the horizon instead of ending at a hard line.
+[Release notes](releases/v1.18.2.md).
+
 **1.18.1 (Beta):** sun rays modelled on a ray-traced reference — brightest near the surface, wider,
 drifting with the waves. [Release notes](releases/v1.18.1.md).
 
