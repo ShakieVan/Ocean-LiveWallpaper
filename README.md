@@ -39,6 +39,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.19.1 (Beta):** the new light patterns on fish and plants too, and smoother fins without small twitches.
+[Release notes](releases/v1.19.1.md).
+
 **1.19.0 (Beta):** light patterns on reef and sand modelled on a ray-traced reference — an irregular net on the
 reef tops, soft drifting clouds of light on the deep sand. [Release notes](releases/v1.19.0.md).
 
