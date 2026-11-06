@@ -8,16 +8,25 @@ Tropical fish, sunlit water and a coral canyon that moves with your perspective.
 Ocean is a real-time 3D live wallpaper, not a looping video.
 
 <p align="center">
-  <a href="media/ocean-1.9.0-portrait.png">
-    <img src="media/ocean-1.9.0-portrait.png" width="360" alt="Ocean 1.9.0: tropical fish in a colourful coral canyon with moving water light and distance-softened shadows enabled" />
+  <a href="media/ocean-1.21.1-portrait.png">
+    <img src="media/ocean-1.21.1-portrait.png" width="360" alt="Ocean 1.21.1: a butterflyfish, a bannerfish and smaller reef fish in a sunlit coral canyon with drifting particles and a sandy floor" />
   </a>
   <br />
-  <em>Ocean 1.9.0 · Water light and soft shadows enabled · Emulator capture, September 27, 2026</em>
+  <em>Ocean 1.21.1 · Screenshot on a Galaxy S24 Ultra, November 6, 2026</em>
 </p>
 
-**[Watch the earlier preview on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A)**
-| [Full-resolution screenshot](media/ocean-1.9.0-portrait.png)
-| [Download the preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
+<p align="center">
+  <a href="https://youtu.be/QImZImsj_bY">
+    <img src="media/ocean-then-and-now.jpg" width="640" alt="Video thumbnail: the first Ocean build from September 11, 2026 with simple cartoon fish, next to Ocean 1.21.1 eight weeks later" />
+  </a>
+  <br />
+  <em>Then and now: the very first build next to 1.21.1, eight weeks later · Video on YouTube</em>
+</p>
+
+**[Watch “first build vs. today” on YouTube](https://youtu.be/QImZImsj_bY)**
+| [Full-resolution screenshot](media/ocean-1.21.1-portrait.png)
+| [Earlier preview on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A)
+| [Download the earlier preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
 > **Latest installation result:** On November 6, 2026, an API-36 Android
@@ -305,12 +314,21 @@ separately. You do not need a GitHub account or access token to check for update
 
 ## Screenshots & Preview
 
-The images and preview show the actual Android app running in an emulator.
-They are not pre-rendered concept art or a phone performance benchmark.
-The screenshot at the top shows the signed **Ocean 1.9.0** release, captured
-on September 27, 2026, with **moving water light** and **distance-softened
-shadows** enabled. It is an unchanged 1080 × 2400 screenshot; only its display
-size is reduced here. Click it to see the full-resolution image.
+The images and videos show the actual Android app on phones or in an emulator.
+They are not pre-rendered concept art or a performance benchmark.
+The screenshot at the top shows the signed **Ocean 1.21.1** release on a
+Galaxy S24 Ultra, captured on November 6, 2026. The phone runs at its
+720 × 1560 display resolution; only Android's status and navigation bars were
+cropped, and its display size is reduced here. Click it to see the full-resolution
+image. The previous [Ocean 1.9.0 screenshot](media/ocean-1.9.0-portrait.png)
+from an emulator (September 27, 2026) remains available.
+
+The [then-and-now video](https://youtu.be/QImZImsj_bY) shows the very first
+build of Ocean (0.1.0, September 11, 2026) next to 1.21.1. Both sides are
+real-time screen recordings made on November 6, 2026: the first build, rebuilt
+from its original source for the recording, on a Galaxy S21, and the signed
+1.21.1 release on a Galaxy S24 Ultra. Only the side-by-side layout, captions and
+fades were added. [How the video was made](media/README.md#then-and-now-video--november-6-2026).
 
 The earlier [landscape screenshot](media/ocean-landscape.png),
 [portrait screenshot](media/ocean-portrait.png) and video predate the 1.1.0

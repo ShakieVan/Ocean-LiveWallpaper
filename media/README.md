@@ -1,8 +1,42 @@
 # Ocean Media
 
-[Watch Ocean on YouTube](https://www.youtube.com/shorts/x7QC6oZ9l2A).
-The channel owner uploaded the preview; the public README links to it below
-the current screenshot. GitHub README pages do not embed YouTube iframe players.
+[Watch “first build vs. today” on YouTube](https://youtu.be/QImZImsj_bY) and the
+[earlier preview](https://www.youtube.com/shorts/x7QC6oZ9l2A).
+The channel owner uploaded both videos; the public README links to them below
+the current screenshot. GitHub README pages do not embed YouTube iframe players,
+so the README shows a linked thumbnail instead.
+
+## Ocean 1.21.1 — November 6, 2026
+
+[`ocean-1.21.1-portrait.png`](ocean-1.21.1-portrait.png) is a screenshot of the
+signed **Ocean 1.21.1 / version code 90** release on the owner's Galaxy S24 Ultra
+(SM-S928B), taken with Android's screen capture on November 6, 2026 while the app
+preview was running with the settings in use on that phone. The phone runs at its
+720 × 1560 display resolution. Android's status bar (top 62 pixels) and navigation
+bar (bottom 90 pixels) were cropped, leaving 720 × 1408 pixels; nothing else was
+changed. It shows the German preview controls. This is an actual app capture, not
+concept art or a performance result.
+
+## Then-and-now video — November 6, 2026
+
+[`ocean-then-and-now.jpg`](ocean-then-and-now.jpg) is the thumbnail of the
+[YouTube video](https://youtu.be/QImZImsj_bY): a frame from the video with a
+play symbol added. The 40-second, silent video places two real-time screen
+recordings side by side, both made on November 6, 2026:
+
+- **Left, “Then”:** Ocean 0.1.0, the first build from September 11, 2026,
+  rebuilt from its original source for this recording on a Galaxy S21 (SM-G991B).
+  Only the package name, the app label and a flag that lets the preview appear
+  over the lock screen were changed so it could run beside the current app;
+  scene, models and shaders are those of 0.1.0. It rendered at 40 FPS.
+- **Right, “Now”:** the signed Ocean 1.21.1 release on a Galaxy S24 Ultra
+  (SM-S928B), recorded at 30 FPS.
+
+Both recordings had Android's status and navigation bars cropped and were
+scaled to the same height. Captions, frame and fades were added; the scenes are
+otherwise unchanged. Export: H.264, 2560 × 1440, 60 FPS (the source frames are
+repeated, not interpolated). The two phones differ, so the video shows progress
+in appearance, not a performance comparison.
 
 ## Ocean 1.9.0 — September 27, 2026
 
