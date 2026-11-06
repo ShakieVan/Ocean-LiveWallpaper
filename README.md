@@ -49,6 +49,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**1.21.2:** a hidden look back: tap the installed version five times under **Settings > Updates**
+to see the very first build next to 1.21.1. [Release notes](releases/v1.21.2.md).
+
 **1.21.1:** particles and plants now really move in step with the fish in the swell, and
 clownfish part the anemone tentacles. [Release notes](releases/v1.21.1.md).
 
