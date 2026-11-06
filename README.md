@@ -49,6 +49,79 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
+**Latest: 1.21.2** — a hidden look back: tap the installed version five times under
+**Settings > Updates** to see the very first build next to 1.21.1.
+[Release notes](releases/v1.21.2.md) · [All versions](#version-history)
+
+## Your Own Corner of the Reef
+
+- Eight fish types with animated bodies and fins, plus small schools that
+  retreat into their coral shelter when you tap nearby.
+- Colourful coral, swaying plants, drifting particles and moving underwater light.
+- Move, rotate and zoom the camera, then save your favourite perspective.
+- Swell, surface waves, sun rays and moving light patterns, and a choice between
+  parallax and an on-site camera that follows your phone.
+- Pick which fish species and reef types appear, and refresh the coral layout with one tap.
+- Fine reef textures and fish scales, with controls for surface
+  detail, texture sharpness, brightness, fluorescence, contrast, water clarity and reef colour.
+  Lower brightness brings out the selected fluorescent colours; changing the
+  rock from limestone to dark grey or magma black preserves coral colours.
+  [Adjust the appearance](INSTALLATION.md#appearance-controls).
+- Adjust fish count, swimming speed, extra vegetation, shadows and tilt strength.
+- Choose exactly **30, 40, 50 or 60 FPS**. Rendering pauses when Android reports
+  the wallpaper as invisible; actual power use depends on your device and settings.
+
+## Getting Started
+
+1. Read the installation note above and download the universal APK from Releases.
+2. Install it with Android's system installer, then open **Ocean**.
+3. Choose your camera angle and settings, then tap **Set wallpaper** and confirm
+   the destination in Android's system picker.
+
+Android supplies the home/lock-screen destination picker. Available combinations
+depend on your phone and launcher. Android 9 or newer and OpenGL ES 3.0 are required.
+Current app screenshots show the German interface; this download guide is in English.
+
+Updates are available inside Ocean under **Settings > Updates**. This public
+repository hosts the downloads used by the updater; development is maintained
+separately. You do not need a GitHub account or access token to check for updates.
+
+## Screenshots & Preview
+
+The images and videos show the actual Android app on phones or in an emulator.
+They are not pre-rendered concept art or a performance benchmark.
+The screenshot at the top shows the signed **Ocean 1.21.1** release on a
+Galaxy S24 Ultra, captured on November 6, 2026. The phone runs at its
+720 × 1560 display resolution; only Android's status and navigation bars were
+cropped, and its display size is reduced here. Click it to see the full-resolution
+image. The previous [Ocean 1.9.0 screenshot](media/ocean-1.9.0-portrait.png)
+from an emulator (September 27, 2026) remains available.
+
+The [then-and-now video](https://youtu.be/QImZImsj_bY) shows the very first
+build of Ocean (0.1.0, September 11, 2026) next to 1.21.1. Both sides are
+real-time screen recordings made on November 6, 2026: the first build, rebuilt
+from its original source for the recording, on a Galaxy S21, and the signed
+1.21.1 release on a Galaxy S24 Ultra. Only the side-by-side layout, captions and
+fades were added. [How the video was made](media/README.md#then-and-now-video--november-6-2026).
+
+The earlier [landscape screenshot](media/ocean-landscape.png),
+[portrait screenshot](media/ocean-portrait.png) and video predate the 1.1.0
+appearance controls and 1.2.0 reef additions. The installation guide includes
+newer coral portraits, camera controls and completed public updates through
+1.6.0. The 1.4.2 release
+notes add a native fish before/after comparison. The [1.6.0 gallery](releases/v1.6.0.md#native-android-captures)
+shows that version's fluorescence and full coral redistribution in frozen emulator
+test frames. Existing media retain their
+original version labels and capture descriptions.
+The short preview is silent, so you can add your own licensed soundtrack.
+
+Feedback is welcome in [Issues](https://github.com/ShakieVan/Ocean-LiveWallpaper/issues).
+Please include your phone model, Android version and Ocean version, but no private data.
+
+## Version History
+
+Newest first. Each entry links to its release notes.
+
 **1.21.2:** a hidden look back: tap the installed version five times under **Settings > Updates**
 to see the very first build next to 1.21.1. [Release notes](releases/v1.21.2.md).
 
@@ -241,12 +314,8 @@ columns and antlers, and refreshed native species portraits.
 texture marks, and gentler shading in small recesses.
 [Release notes and native before/after images](releases/v1.4.2.md).
 
-## Your Own Corner of the Reef
+### Earlier Highlights in Detail
 
-- Eight fish types with animated bodies and fins, plus small schools that
-  retreat into their coral shelter when you tap nearby.
-- Colourful coral, swaying plants, drifting particles and moving underwater light.
-- Move, rotate and zoom the camera, then save your favourite perspective.
 - New in **1.6.0**: Refresh now moves the foreground reef, clams and optional
   extra growth as well as distant corals. Nine Acanthastrea variants stand as
   single polyps in each reef region. Fine fish markings are more visible, and
@@ -291,61 +360,6 @@ texture marks, and gentler shading in small recesses.
   **Extra growth** adds twice as many colonies at every enabled step and follows
   your coral choices. Moving light rays reach farther sideways.
   [Choose species and adjust growth](INSTALLATION.md#coral-variety-and-extra-growth).
-- Fine reef textures and fish scales, with controls for surface
-  detail, texture sharpness, brightness, fluorescence, contrast, water clarity and reef colour.
-  Lower brightness brings out the selected fluorescent colours; changing the
-  rock from limestone to dark grey or magma black preserves coral colours.
-  [Adjust the appearance](INSTALLATION.md#appearance-controls).
-- Adjust fish count, swimming speed, extra vegetation, shadows and tilt strength.
-- Choose exactly **30, 40, 50 or 60 FPS**. Rendering pauses when Android reports
-  the wallpaper as invisible; actual power use depends on your device and settings.
-
-## Getting Started
-
-1. Read the installation note above and download the universal APK from Releases.
-2. Install it with Android's system installer, then open **Ocean**.
-3. Choose your camera angle and settings, then tap **Set wallpaper** and confirm
-   the destination in Android's system picker.
-
-Android supplies the home/lock-screen destination picker. Available combinations
-depend on your phone and launcher. Android 9 or newer and OpenGL ES 3.0 are required.
-Current app screenshots show the German interface; this download guide is in English.
-
-Updates are available inside Ocean under **Settings > Updates**. This public
-repository hosts the downloads used by the updater; development is maintained
-separately. You do not need a GitHub account or access token to check for updates.
-
-## Screenshots & Preview
-
-The images and videos show the actual Android app on phones or in an emulator.
-They are not pre-rendered concept art or a performance benchmark.
-The screenshot at the top shows the signed **Ocean 1.21.1** release on a
-Galaxy S24 Ultra, captured on November 6, 2026. The phone runs at its
-720 × 1560 display resolution; only Android's status and navigation bars were
-cropped, and its display size is reduced here. Click it to see the full-resolution
-image. The previous [Ocean 1.9.0 screenshot](media/ocean-1.9.0-portrait.png)
-from an emulator (September 27, 2026) remains available.
-
-The [then-and-now video](https://youtu.be/QImZImsj_bY) shows the very first
-build of Ocean (0.1.0, September 11, 2026) next to 1.21.1. Both sides are
-real-time screen recordings made on November 6, 2026: the first build, rebuilt
-from its original source for the recording, on a Galaxy S21, and the signed
-1.21.1 release on a Galaxy S24 Ultra. Only the side-by-side layout, captions and
-fades were added. [How the video was made](media/README.md#then-and-now-video--november-6-2026).
-
-The earlier [landscape screenshot](media/ocean-landscape.png),
-[portrait screenshot](media/ocean-portrait.png) and video predate the 1.1.0
-appearance controls and 1.2.0 reef additions. The installation guide includes
-newer coral portraits, camera controls and completed public updates through
-1.6.0. The 1.4.2 release
-notes add a native fish before/after comparison. The [1.6.0 gallery](releases/v1.6.0.md#native-android-captures)
-shows that version's fluorescence and full coral redistribution in frozen emulator
-test frames. Existing media retain their
-original version labels and capture descriptions.
-The short preview is silent, so you can add your own licensed soundtrack.
-
-Feedback is welcome in [Issues](https://github.com/ShakieVan/Ocean-LiveWallpaper/issues).
-Please include your phone model, Android version and Ocean version, but no private data.
 
 [Third-party notices](THIRD_PARTY_NOTICES.md) | [License texts](licenses/)
 
