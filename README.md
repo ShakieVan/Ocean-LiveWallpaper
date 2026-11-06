@@ -30,11 +30,11 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 
 > [!NOTE]
 > **Latest installation result:** On November 6, 2026, an API-36 Android
-> emulator successfully updated from **1.20.2 to 1.21.1** through Ocean's public
+> emulator successfully updated from **1.21.1 to 1.21.2** through Ocean's public
 > updater and Android's system installer. Download and integrity checks passed;
 > no scan or block dialog appeared, and no Play Protect override or global
-> protection change was used. On October 1, 2026, the update from **1.9.0 to
-> 1.9.1** had succeeded the same way.
+> protection change was used. Earlier that day the update from **1.20.2 to 1.21.1**,
+> and on October 1, 2026 the update from **1.9.0 to 1.9.1**, had succeeded the same way.
 > This is an emulator result, not a phone test or general Play Protect clearance.
 > Earlier fresh-emulator updates from **1.0.2 to 1.2.0** and **1.2.0 to 1.2.1** also succeeded.
 > Earlier tests blocked **1.1.0** after a requested scan on September 14 and
