@@ -50,9 +50,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**Latest: 1.22.0** — fish that swim through water: no more twitching, strokes that fit each
-fish and its speed, and fins that trail their base like a diver's fin.
-[Release notes](releases/v1.22.0.md) · [All versions](#version-history)
+**Latest: 1.23.0** — lively waves without the checkered pattern: short, curved crests, plus
+new sliders for wave strength and unrest.
+[Release notes](releases/v1.23.0.md) · [All versions](#version-history)
 
 ## Your Own Corner of the Reef
 
@@ -122,6 +122,10 @@ Please include your phone model, Android version and Ocean version, but no priva
 ## Version History
 
 Newest first. Each entry links to its release notes.
+
+**1.23.0:** lively waves with short, curved crests instead of a checkered pattern when you look
+sideways, and two new sliders for wave strength and unrest under **Light & Water**.
+[Release notes](releases/v1.23.0.md).
 
 **1.22.0:** fish that swim through water: no more twitching, strokes that fit each fish and its
 speed, fins first and body after, and tail, dorsal and anal fins that trail their base.
