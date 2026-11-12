@@ -52,9 +52,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**Latest: 1.23.1 (Beta)** — the swell no longer fizzles out before the reef: it grows toward
-you and rolls on overhead.
-[Release notes](releases/v1.23.1.md) · [All versions](#version-history)
+**Latest: 1.23.2 (Beta)** — the same picture with less graphics work, and about 17 MB less
+graphics memory.
+[Release notes](releases/v1.23.2.md) · [All versions](#version-history)
 
 ## Your Own Corner of the Reef
 
@@ -124,6 +124,10 @@ Please include your phone model, Android version and Ocean version, but no priva
 ## Version History
 
 Newest first. Each entry links to its release notes.
+
+**1.23.2 (Beta):** the same picture with less graphics work: repeated calculations for light,
+shadows and light shafts are gone, and two unused textures are no longer loaded at every start.
+[Release notes](releases/v1.23.2.md).
 
 **1.23.1 (Beta):** the swell grows toward you and rolls on overhead instead of fizzling out
 before the reef, and the surface straight above shows wave ridges instead of one flat colour.
