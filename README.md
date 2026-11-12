@@ -29,12 +29,12 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 | [Download the earlier preview MP4](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/download/v1.0.3/Ocean-preview-en.mp4)
 
 > [!NOTE]
-> **Latest installation result:** On November 11, 2026, an API-36 Android
-> emulator successfully updated from **1.23.0 to 1.23.1 (Beta)** through Ocean's public
+> **Latest installation result:** On November 12, 2026, an API-36 Android
+> emulator successfully updated from **1.23.1 to 1.23.2 (Beta)** through Ocean's public
 > updater and Android's system installer, with Ocean set as the live wallpaper.
 > Download and integrity checks passed; no scan or block dialog appeared, and no
-> Play Protect override or global protection change was used. Earlier the same day
-> the update from **1.22.0 to 1.23.0**, on November 10, 2026
+> Play Protect override or global protection change was used. On November 11, 2026
+> the updates from **1.23.0 to 1.23.1** and from **1.22.0 to 1.23.0**, on November 10, 2026
 > the update from **1.21.2 to 1.22.0**, on November 6, 2026 the updates from
 > **1.21.1 to 1.21.2** and from **1.20.2 to 1.21.1**, and on October 1, 2026 the
 > update from **1.9.0 to 1.9.1**, had succeeded the same way.
