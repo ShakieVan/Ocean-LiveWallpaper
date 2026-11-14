@@ -247,6 +247,15 @@ of a malware classification.
 The updater checks the GitHub asset digest, file size, application identity,
 newer version and matching signing certificate before opening Android's installer.
 For a manual download, each release includes `SHA256SUMS.txt`.
+
+From **1.24.2** Ocean is signed with its own release key (certificate SHA-256
+`415f3df33f5f35eea69fc3cdf5aedd47f17981dab88e594cd5941e2ad341b3ef`). The previous
+key (`438d8910ad591be328dcc53424fab492dce9ee894fe4e1cceb174b6c4cceb041`) handed
+Ocean over to it through APK Signature Scheme v3 key rotation, so Android updates
+an installed Ocean without uninstalling and keeps its settings. The updater of
+1.24.0 and older accepts only the previous key: it offers **1.24.1**, which stays
+marked "Latest" on GitHub and then offers the newest version. A manual
+installation of a newer APK over an older Ocean also works.
 These checks establish identity and integrity, not that an APK is harmless.
 
 ## After Installation

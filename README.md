@@ -50,12 +50,13 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 > general Play Protect clearance for these versions.
 > [See the screenshots and installation notes](INSTALLATION.md#google-play-protect).
 
-**[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
+**[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/tag/v1.24.2)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**Latest: 1.24.1 (Beta)** — prepares Ocean's own signing key: the updater accepts the key
-handover and finds the newest release. Nothing changes in the picture.
-[Release notes](releases/v1.24.1.md) · [All versions](#version-history)
+**Latest: 1.24.2 (Beta)** — the first version signed with Ocean's own key. The previous key
+handed Ocean over to it, so updates keep your settings. Coming from 1.24.0 or older, update to
+1.24.1 first (it stays marked "Latest" on GitHub for that reason).
+[Release notes](releases/v1.24.2.md) · [All versions](#version-history)
 
 ## Your Own Corner of the Reef
 
@@ -125,6 +126,10 @@ Please include your phone model, Android version and Ocean version, but no priva
 ## Version History
 
 Newest first. Each entry links to its release notes.
+
+**1.24.2 (Beta):** the first version signed with Ocean's own release key, handed over from the
+previous key so that Android updates without uninstalling. Otherwise the same as 1.24.1.
+[Release notes](releases/v1.24.2.md).
 
 **1.24.1 (Beta):** prepares the switch to Ocean's own signing key. The updater accepts a new
 version whose key the current key handed Ocean over to, reads the release list for the newest
