@@ -53,9 +53,9 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 **[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/latest)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**Latest: 1.24.0 (Beta)** — a third wave style, **Natural**: waves from all directions pile up
-into peaks and fade again, with sliders for strength and tempo.
-[Release notes](releases/v1.24.0.md) · [All versions](#version-history)
+**Latest: 1.24.1 (Beta)** — prepares Ocean's own signing key: the updater accepts the key
+handover and finds the newest release. Nothing changes in the picture.
+[Release notes](releases/v1.24.1.md) · [All versions](#version-history)
 
 ## Your Own Corner of the Reef
 
@@ -125,6 +125,11 @@ Please include your phone model, Android version and Ocean version, but no priva
 ## Version History
 
 Newest first. Each entry links to its release notes.
+
+**1.24.1 (Beta):** prepares the switch to Ocean's own signing key. The updater accepts a new
+version whose key the current key handed Ocean over to, reads the release list for the newest
+version and checks again right after an update. Still signed with the previous key.
+[Release notes](releases/v1.24.1.md).
 
 **1.24.0 (Beta):** a third water-surface style, **Natural**: waves from all directions cross,
 pile up into peaks and fade again. Wave strength now reaches from 10 to 300 %, and natural waves
