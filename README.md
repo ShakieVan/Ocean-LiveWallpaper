@@ -131,6 +131,11 @@ Please include your phone model, Android version and Ocean version, but no priva
 
 Newest first. Each entry links to its release notes.
 
+APK downloads are offered for the current version, for 1.24.2 and 1.24.1 (the switch to Ocean's
+own signing key), for 1.0.3 and for 0.9.0, the first release. The release pages of all other
+versions were removed on November 15, 2026. Their notes remain here; a download link in them now
+leads to that version's tag page, which has no APK.
+
 **1.25.0 (Beta):** the swell gains a fourth level, normal, between gentle and strong, on a slider
 with four named levels. Saved settings keep their swell.
 [Release notes](releases/v1.25.0.md).
