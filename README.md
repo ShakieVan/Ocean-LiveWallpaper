@@ -54,13 +54,15 @@ Ocean is a real-time 3D live wallpaper, not a looping video.
 > general Play Protect clearance for these versions.
 > [See the screenshots and installation notes](INSTALLATION.md#google-play-protect).
 
-**[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/tag/v1.25.0)**
+**[Download Ocean for Android](https://github.com/ShakieVan/Ocean-LiveWallpaper/releases/tag/v1.26.0)**
 | [Installation & updates](INSTALLATION.md) | [Privacy](PRIVACY.md)
 
-**Latest: 1.25.0 (Beta)** — the swell gains a level, normal, between gentle and strong.
+**Latest: 1.26.0 (Beta)** — a grounded reef: rocks rest on the seabed, corals grow on supporting
+rock, and the giant clam has a real shell. Big fish keep clear of the nurseries, and the
+precomputed shadows lose their dark lines.
 Coming from 1.24.0 or older, update to 1.24.1 first (it stays marked "Latest" on GitHub so that
 older versions reach Ocean's own signing key).
-[Release notes](releases/v1.25.0.md) · [All versions](#version-history)
+[Release notes](releases/v1.26.0.md) · [All versions](#version-history)
 
 ## Your Own Corner of the Reef
 
@@ -131,10 +133,16 @@ Please include your phone model, Android version and Ocean version, but no priva
 
 Newest first. Each entry links to its release notes.
 
-APK downloads are offered for the current version, for 1.24.2 and 1.24.1 (the switch to Ocean's
-own signing key), for 1.0.3 and for 0.9.0, the first release. The release pages of all other
-versions were removed on November 15, 2026. Their notes remain here; a download link in them now
-leads to that version's tag page, which has no APK.
+APK downloads are offered for the newest versions (currently 1.26.0 and 1.25.0), for 1.24.2 and
+1.24.1 (the switch to Ocean's own signing key), for 1.0.3 and for 0.9.0, the first release. The
+release pages of all other versions were removed on November 15, 2026. Their notes remain here; a
+download link in them now leads to that version's tag page, which has no APK.
+
+**1.26.0 (Beta):** a grounded reef. Rocks rest on the seabed and on each other, corals in all four
+distributions grow on supporting rock, and the giant clam has two large ribbed valves. Big fish no
+longer brush along the nursery corals, no fish stays behind the camera after the on-site view, and
+soft precomputed reef shadows lose their thin dark lines at rock bases.
+[Release notes](releases/v1.26.0.md).
 
 **1.25.0 (Beta):** the swell gains a fourth level, normal, between gentle and strong, on a slider
 with four named levels. Saved settings keep their swell.
